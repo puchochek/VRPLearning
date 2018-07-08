@@ -27,5 +27,17 @@ public class Rectangle {
         }
 
     }
+    public Boolean setColor(Boolean isColored) {
+        //Boolean isColored = false;
+        List<String> recColors = new List<String> {'red', 'blue', 'white', 'yellow', 'purple', 'orange'};
+        Double chooseRandomColor = Math.floor(Math.random() * recColors.size());
+        System.debug(chooseRandomColor);
+        Integer i = chooseRandomColor.intValue();
+        if (isColored == false) {
+            System.debug('Now this rectangle is ' + recColors[i]);
+        }
+        return false;
+
+    }
 
 }
