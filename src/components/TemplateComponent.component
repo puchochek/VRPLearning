@@ -1,0 +1,9 @@
+<apex:component controller="TemplateComponentController">
+    <apex:attribute name="contactId" description="contact Id" type="Id" required="true" assignTo="{!myContactId}"/>
+    Id: {!contactId}
+    Name: {!currentContact.Account.Name}<br/>
+    Number: {!currentContact.Account.AccountNumber}<br/> 
+    Phone: {!currentContact.Account.Phone}<br/>
+    Adress: {!currentContact.Account.BillingStreet}<br/>
+    Type: {!currentContact.Account.Type}<br/>
+</apex:component>

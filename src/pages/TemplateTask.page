@@ -1,0 +1,13 @@
+<apex:page showHeader="false" sidebar="false">
+    <apex:slds />
+    <div class = "slds-grid">
+        <div class = "slds-col slds-box slds-size_2-of-12 ">
+            <h1>Account information</h1>
+            <apex:insert name="LeftSidebar"/>   
+        </div>
+        <div class = "slds-col slds-box slds-size_10-of-12">
+            
+            <apex:insert name="Content"/>
+        </div>
+    </div>
+</apex:page>

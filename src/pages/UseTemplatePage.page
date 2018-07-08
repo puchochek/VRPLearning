@@ -1,0 +1,12 @@
+<apex:page showHeader="true" sidebar="false" standardController="Contact">
+    <apex:composition template="TemplateTask">
+        <apex:define name="LeftSidebar">
+            <c:TemplateComponent contactId="{!Contact.Id}"/>
+        </apex:define>
+        <apex:define name="Content">
+            <apex:detail />
+        </apex:define>
+    </apex:composition>
+</apex:page>
+
+<!-- 0036F00002XjIG7QAN -->

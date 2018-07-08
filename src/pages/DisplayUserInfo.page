@@ -1,0 +1,35 @@
+<!--
+ - Created by Lena on 08.07.18.
+ -->
+
+<apex:page id="DisplayUserInfo" controller="DisplayUserInfo">
+    <apex:pageBlock >
+        <div style = "text-align:center;font-size: 25px;">
+            <h1>Hello,  {! $User.FirstName }  {! $User.LastName }</h1>
+        </div>
+    </apex:pageBlock >
+    <apex:pageBlock >
+        <div class="slds-border--bottom;">
+        <div style = "text-align:center;font-size: 25px;">
+            <h1>Your User Id: {!currentuser.Id}</h1>
+        </div>
+        <div style = "text-align:center;font-size: 25px;">
+            <h1>Your Currency: {!currentuserCurrency}</h1>
+        </div>
+        <div style = "text-align:center;font-size: 25px;">
+            <h1>Your Email: {!currentuserMail}</h1>
+        </div>
+        <div style = "text-align:center;font-size: 25px;">
+            <h1>Your Organization Name: {!currentuserOrg}</h1>
+        </div>
+        <div style = "text-align:center;font-size: 25px;">
+            <h1>Today: {!currentDate}</h1>
+        </div>
+        <div style = "text-align:center;font-size: 25px;">
+            <h1>Your SOQL limit: {!limitSOQL}</h1>
+        </div>
+        </div>
+
+    </apex:pageBlock >
+
+</apex:page>
