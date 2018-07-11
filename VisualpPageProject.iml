@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="IlluminatedCloud" name="Illuminated Cloud">
       <configuration>
-        <option name="connectionName" value="Visual" />
+        <option name="connectionName" value="Salesforce" />
         <option name="moduleContents">
           <ModuleContents>
             <option name="manifest">

@@ -4,7 +4,7 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="Visual" />
+          <option name="connectionName" value="Salesforce" />
           <option name="defaultModuleName" value="VisualpPageProject" />
         </IlluminatedCloudConnection>
       </list>
