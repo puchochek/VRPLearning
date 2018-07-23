@@ -1,0 +1,10 @@
+<apex:page controller="CustomContTaskTwo">
+    <apex:pageBlock >
+		<apex:pageBlockTable value="{! allCont }" var="cont">
+            <apex:column value="{! cont.Name }"/>
+            <apex:column value="{! cont.Phone }"/>
+            <apex:column value="{! cont.Email }"/>
+    
+		</apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

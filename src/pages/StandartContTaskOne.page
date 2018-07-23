@@ -1,0 +1,15 @@
+<apex:page standardController="Contact" extensions="StandartContOneController">
+    <apex:form >
+    <apex:pageBlock title="Contact">
+        <apex:pageBlockSection >
+            <apex:outputField value="{!Contact.Name}"/> <br/>
+            <apex:outputField value="{!Contact.Email}"/> <br/>
+            <apex:outputField value="{!Contact.Phone}"/> <br/>
+            <apex:outputField value="{!Contact.Birthdate}"/> <br/>
+            <apex:commandButton action="{!redirect}" value="View All"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>
+
+<!--id=0036F00002XjIG7QAN-->

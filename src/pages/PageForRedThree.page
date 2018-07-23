@@ -1,0 +1,7 @@
+<!--
+ - Created by Lena on 20.07.18.
+ -->
+
+<apex:page id="PageForRedThree">
+    this is the third page for redirect
+</apex:page>

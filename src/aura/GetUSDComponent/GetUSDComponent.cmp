@@ -1,0 +1,14 @@
+<aura:component >
+    
+    public void getNBRBData(){
+    
+     HttpRequest req = new HttpRequest();
+     req.setEndpoint('http://www.nbrb.by/API/ExRates/Rates/USD?ParamMode=2');
+     req.setMethod('GET');
+    
+	Http http = new Http();
+	HTTPResponse res = http.send(req);
+	System.debug(res.getBody());
+   }
+	
+</aura:component>

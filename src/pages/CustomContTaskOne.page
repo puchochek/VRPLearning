@@ -1,0 +1,13 @@
+<apex:page controller="CustomContTaskOne">
+    <apex:form >
+    <apex:pageBlock title="Contact">
+        <apex:pageBlockSection >
+            <apex:outputField value="{!cont.Name}"/> <br/>
+            <apex:outputField value="{!cont.Email}"/> <br/>
+            <apex:outputField value="{!cont.Phone}"/> <br/>
+            <apex:commandButton action="{!redirect}" value="View All"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>
+<!--id=0036F00002XjIG7QAN-->

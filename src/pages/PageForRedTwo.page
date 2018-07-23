@@ -1,0 +1,7 @@
+<!--
+ - Created by Lena on 20.07.18.
+ -->
+
+<apex:page id="PageForRedTwo">
+    This is the second page for reference
+</apex:page>

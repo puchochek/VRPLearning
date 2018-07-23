@@ -6,5 +6,6 @@
     <tab>standard-LightningBoltHome</tab>
     <tab>Child__c</tab>
     <tab>Parent__c</tab>
+    <tab>Crow__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

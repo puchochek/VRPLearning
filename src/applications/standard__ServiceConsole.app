@@ -175,9 +175,13 @@
     <tab>standard-Lead</tab>
     <tab>Child__c</tab>
     <tab>Parent__c</tab>
+    <tab>Crow__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>Child__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Crow__c</tab>
         </mapping>
         <mapping>
             <tab>Parent__c</tab>

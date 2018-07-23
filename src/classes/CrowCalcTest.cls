@@ -77,7 +77,7 @@ public class CrowCalcTest {
 
     }
     
-    @isTest
+   /* @isTest
     public static void testSubtractManyCrows() {
 		CreateNewCrows(5000);
         Integer initialCrows = [SELECT COUNT() FROM Crow__c];
@@ -100,7 +100,43 @@ public class CrowCalcTest {
         System.assert(crowsAfter == 0, 'Here is Wrong answer!');
         System.assert(delCrowsResult, 'Success addition not "true"');
 
+    }*/
+
+    @isTest
+    static void catchDML() {
+        Profile testProfile = [SELECT Id
+        FROM Profile
+        WHERE Name = 'Read Only'
+        LIMIT 1];
+
+        User testUser = new User(LastName = 'New Test User',
+                Username = 'puchochek@gmail.com.test',
+                Email = 'puchochek@gmail.com',
+                Alias = 'newtu',
+                TimeZoneSidKey = 'GMT',
+                LocaleSidKey = 'en_GB',
+                EmailEncodingKey = 'ISO-8859-1',
+                ProfileId = testProfile.Id,
+                LanguageLocaleKey = 'en_US');
+        
+        insert testUser;
+        
+        Integer initialCrows = [SELECT COUNT() FROM Crow__c];
+		Boolean addCrowsResult;
+        	System.debug('Current User: ' + UserInfo.getUserName());
+			System.debug('Current Profile: ' + UserInfo.getProfileId());
+        System.runAs(testUser) {
+            System.debug('Current User: ' + UserInfo.getUserName());
+			System.debug('Current Profile: ' + UserInfo.getProfileId());
+        	addCrowsResult = CrowCalc.addCrows(10);
+        }
+        
+        Integer crowsAfter = [SELECT COUNT() FROM Crow__c];
+        System.assert(crowsAfter == initialCrows, 'Here is Wrong answer!');
+        System.assert(!addCrowsResult, 'Success addition not "true"');
+
+
     }
-    
+
 
 }

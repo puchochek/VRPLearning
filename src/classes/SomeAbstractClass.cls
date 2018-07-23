@@ -4,11 +4,13 @@
 
 public abstract class SomeAbstractClass {
 
+    public String smstr;
+
     public void someAction() {
         System.debug('Hi there ');
     }
 
-    public abstract void someAbstractAction();
+//    public abstract void someAbstractAction();
 
     public virtual void someNewAction() {
         System.debug('Hi there ');

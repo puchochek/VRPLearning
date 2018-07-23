@@ -1,0 +1,220 @@
+<!--
+ - Created by User on 20.07.2018.
+ -->
+
+<apex:page id="ActionTask" controller="ActionTask">
+
+    <apex:form >
+        <apex:actionFunction name="firstAction"
+                             action="{!firstAction}"
+                             rerender="out">
+            <apex:param value="" name="FirstParam"/>
+        </apex:actionFunction>
+
+        <apex:actionFunction name="secondAction"
+                             action="{!secondAction}"
+                             rerender="out">
+            <apex:param value="" name="SecondParam"/>
+        </apex:actionFunction>
+
+        <apex:actionFunction name="thirdAction"
+                             action="{!thirdAction}"
+                             rerender="out">
+            <apex:param value="" name="ThirdParam"/>
+        </apex:actionFunction>
+    </apex:form>
+
+    <script>
+        function buttonOne(message){
+           firstAction(message);
+        }
+    </script>
+
+    <script>
+        function buttonTwo(message){
+            secondAction(message);
+        }
+    </script>
+
+    <script>
+        function buttonThree(message){
+            thirdAction(message);
+        }
+    </script>
+
+        <apex:outputPanel id="out">
+            <button onClick="buttonOne(this.title)" title="First Button">
+                The First Button
+            </button>
+            <button onClick="buttonTwo(this.title)" title="Second Button">
+                The Second Button
+            </button>
+            <button onClick="buttonThree(this.title)" title="Third Button">
+                The Third Button
+            </button><br/>
+            <span> {!user} </span>
+        </apex:outputPanel><br/>
+    <br/>
+
+    <script type="text/javascript">
+        function getRemoteObject() {
+            console.log(111, 'hello');
+            var objectName = document.getElementById('objSearch').value;
+            console.log(222, objectName);
+            Visualforce.remoting.Manager.invokeAction('{!$RemoteAction.ActionTask.getSObjects}', objectName, function(result, event) {
+                console.log('event.status', event.status);
+                if (event.status) {
+                    console.log('result', result);
+
+                    for (var i = 0; i < result.length; i++){
+                        document.getElementById('remoteObjId' + i).innerHTML = result[i].Id;
+                        document.getElementById('remoteObjName' + i).innerHTML = result[i].Name;
+                        document.getElementById('remoteObjDate'  + i).innerHTML = result[i].CreatedDate;
+                        console.log(333, result);
+                    }
+                } else if (event.type=='exception') {
+                    document.getElementById("responseErrors").innerHTML = event.message;
+                }
+            }, {
+                escape: true
+            });
+        }
+
+    </script>
+//
+    <apex:form id="myForm">
+        <apex:pageBlock rendered="{!isFirstBoxShown}">
+            <input id="objSearch" type="text"/>
+            <apex:commandButton onclick="getRemoteObject()" rerender="null" value="Get objects"></apex:commandButton>
+            <div id="responseErrors"></div>
+
+            <apex:pageBlockSection id="blockSection" columns="3">
+
+                <apex:pageBlockSectionItem id="firstItem">
+                    <apex:actionRegion >
+                        <span id="remoteObjName0"></span><br/>
+                        <span id="remoteObjName1"></span><br/>
+                        <span id="remoteObjName2"></span><br/>
+                        <span id="remoteObjName3"></span><br/>
+                        <span id="remoteObjName4"></span><br/>
+                    </apex:actionRegion>
+
+                </apex:pageBlockSectionItem>
+
+
+                <apex:pageBlockSectionItem id="secondItem">
+                    <span id="remoteObjId0"></span><br/>
+                    <span id="remoteObjId1"></span><br/>
+                    <span id="remoteObjId2"></span><br/>
+                    <span id="remoteObjId3"></span><br/>
+                    <span id="remoteObjId4"></span><br/>
+                </apex:pageBlockSectionItem>
+
+
+                <apex:pageBlockSectionItem id="thirdItem">
+                    <span id="remoteObjDate0"></span><br/>
+                    <span id="remoteObjDate1"></span><br/>
+                    <span id="remoteObjDate2"></span><br/>
+                    <span id="remoteObjDate3"></span><br/>
+                    <span id="remoteObjDate4"></span><br/>
+                </apex:pageBlockSectionItem>
+
+            </apex:pageBlockSection>
+
+
+        </apex:pageBlock><br/>
+
+        <br/>
+
+        <apex:pageBlock title="Some usefull buttons" rendered="{!isSecondBoxShown}">
+
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!redirectOne}" value="Redirect"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!redirectTwo}" value="Redirect"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!redirectThree}" value="Redirect"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!redirectExternalOne}" value="Redirect out of SF"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!redirectExternalTwo}" value="Redirect out of SF"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!redirectExternalThree}" value="Redirect out of SF"/>
+            </apex:pageBlockButtons><br/>
+
+            <apex:pageBlockButtons location="bottom">
+            <span>Set your parameters here:</span>
+            <apex:inputText value="{!myParam}" id="theTextInput"/>
+                <apex:commandButton action="{!setParams}" value="Set params"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock><br/>
+        <br/>
+
+
+        <apex:pageBlock title="We can use this input" rendered="{!isThirdBoxShown}">
+            <span>Account Name:</span><br/>
+            <apex:inputField id="accName" value="{!account.name}" required="false"/><br/>
+            <span>Site:</span><br/>
+            <apex:inputField id="accSite" value="{!account.site}"/><br/>
+            <span>Description:</span><br/>
+            <apex:inputField id="accNumber" value="{!account.Description}"/><br/>
+            <apex:commandButton action="{!saveAndView}" value="Save and View"/>
+        </apex:pageBlock>
+    </apex:form>
+
+    <apex:form >
+        <apex:pageBlock title="Display blocks">
+
+            <apex:actionFunction name="toggleFirstPageBlock"
+                                 action="{!toggleFirstIsShown}"
+                                 rerender="myForm">
+            </apex:actionFunction>
+
+            <script>
+                function chechboxFirstChanged(){
+                    console.log(111);
+                    toggleFirstPageBlock();
+                }
+            </script>
+
+            <span>Show the first block</span>
+            <apex:inputCheckbox selected="true" onchange="chechboxFirstChanged();"/>
+
+            <apex:actionFunction name="toggleSecondPageBlock"
+                                 action="{!toggleSecondIsShown}"
+                                 rerender="myForm">
+            </apex:actionFunction>
+
+            <script>
+                function chechboxSecondChanged(){
+                    console.log(111);
+                    toggleSecondPageBlock();
+                }
+            </script>
+
+            <span>Show the second block</span>
+            <apex:inputCheckbox selected="true" onchange="chechboxSecondChanged();"/>
+
+            <apex:actionFunction name="toggleThirdPageBlock"
+                                 action="{!toggleThirdIsShown}"
+                                 rerender="myForm">
+            </apex:actionFunction>
+
+            <script>
+                function chechboxThirdChanged(){
+                    console.log(111);
+                    toggleThirdPageBlock();
+                }
+            </script>
+
+            <span>Show the third block</span>
+            <apex:inputCheckbox selected="true" onchange="chechboxThirdChanged();" />
+
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
