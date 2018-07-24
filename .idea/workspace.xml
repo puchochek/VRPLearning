@@ -5,81 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e73ddebd-a793-4e3b-833e-6dd726e67d7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/EuguenTask.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/LoopsTaskClass.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/LoopsTaskClass.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PageForRedThree.page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PageForRedThree.page-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PageForRedTwo.page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PageForRedTwo.page-meta.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__AppLauncher.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__AppLauncher.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Chatter.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Chatter.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Community.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Community.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Content.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Content.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningBolt.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningBolt.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningInstrumentation.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningInstrumentation.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningSales.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningSales.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningSalesConsole.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningSalesConsole.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningService.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningService.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Marketing.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Marketing.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Platform.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Platform.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Sales.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Sales.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Service.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Service.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__ServiceConsole.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__ServiceConsole.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/standard__Sites.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Sites.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/CrowCalcTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/CrowCalcTest.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/MyAbstractClass.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/MyAbstractClass.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/SomeAbstractClass.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/SomeAbstractClass.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/SOQLbuilder.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/SOQLbuilder.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cleanDataServices/DataCloudGeoLocation.cleanDataService" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleanDataServices/DataCloudGeoLocation.cleanDataService" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Account-Account Layout.layout" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Account-Account Layout.layout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Contact-Contact Layout.layout" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Contact-Contact Layout.layout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Account.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Account.object" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Case.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Case.object" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Child__c.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Child__c.object" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Contact.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Contact.object" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Opportunity.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Opportunity.object" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Parent__c.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Parent__c.object" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DisplayUserInfo.page" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DisplayUserInfo.page" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DisplayUserInfo.page-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DisplayUserInfo.page-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Admin.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Admin.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Analytics Cloud Integration User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Analytics Cloud Integration User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Analytics Cloud Security User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Analytics Cloud Security User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Authenticated Website.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Authenticated Website.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/CPQ Integration User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/CPQ Integration User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Chatter External User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Chatter External User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Chatter Free User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Chatter Free User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Chatter Moderator User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Chatter Moderator User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/ContractManager.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/ContractManager.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Cross Org Data Proxy User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Cross Org Data Proxy User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Custom%3A Marketing Profile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Custom%3A Marketing Profile.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Custom%3A Sales Profile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Custom%3A Sales Profile.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Custom%3A Support Profile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Custom%3A Support Profile.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community Login User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community Login User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community Plus Login User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community Plus Login User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community Plus User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community Plus User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Custom.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Custom.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Standard.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Standard.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/External Identity User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/External Identity User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Force%2Ecom - App Subscription User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Force%2Ecom - App Subscription User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Force%2Ecom - Free User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Force%2Ecom - Free User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Gold Partner User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Gold Partner User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/High Volume Customer Portal User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/High Volume Customer Portal User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/HighVolumePortal.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/HighVolumePortal.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Identity User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Identity User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/MarketingProfile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/MarketingProfile.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Partner App Subscription User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Partner App Subscription User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Partner Community Login User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Partner Community Login User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Partner Community User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Partner Community User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/PlatformPortal.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/PlatformPortal.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/ReadOnly.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/ReadOnly.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Silver Partner User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Silver Partner User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/SolutionManager.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/SolutionManager.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Standard.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Standard.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/StandardAul.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/StandardAul.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles/Work%2Ecom Only User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Work%2Ecom Only User.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/settings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/Search.settings" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,8 +25,8 @@
       <file leaf-file-name="SOQLbuilder.cls" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classes/SOQLbuilder.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="154">
+              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -181,9 +109,9 @@
             <option name="calloutsLogLevel" value="NONE" />
             <option name="connectionName" value="Salesforce" />
             <option name="databaseLogLevel" value="FINEST" />
-            <option name="documentText" value="//&#10;////for (Integer i = 0; i &lt;=9; i++) {&#10;////    Rectangle one = new Rectangle();&#10;////    one.setData(i+1, i+2);&#10;////    System.debug(one.getPerimetr());&#10;////    System.debug(one.getSquare());&#10;////}&#10;////&#10;////for (Integer i = 0; i &lt;=9; i++) {&#10;////    Rectangle three = new Rectangle();&#10;////    System.debug(three.getPerimetr());&#10;////    System.debug(three.getSquare());&#10;////}&#10;//&#10;////learnDML.insertContacts();&#10;//&#10;////DisplayUserInfo.DisplayUserInfo();&#10;//&#10;////Rectangle four = new Rectangle();&#10;////four.setColor(false);&#10;//&#10;//List&lt;Integer&gt; count = new List&lt;Integer&gt;();&#10;//for (Integer i = 0; i &lt;= 100; i++) {&#10;//    count.add(i);&#10;//    count.add(i);&#10;//}&#10;//&#10;//System.debug(count);&#10;//&#10;//Set&lt;Integer&gt; uniqueCount = new Set&lt;Integer&gt;();&#10;//uniqueCount.addAll(count);&#10;//&#10;//System.debug(uniqueCount);&#10;//&#10;//    for (Integer i = 0; i &lt; count.size(); i ++) {&#10;//        if (count.contains(i)) {&#10;//            count.remove(i);&#10;//    }&#10;//}&#10;//System.debug(count);&#10;//&#10;//&#10;//Map&lt;String, Integer&gt; dataFromList = new Map&lt;String, Integer&gt;();&#10;//for (Integer forMap : count) {&#10;//    dataFromList.put(String.valueOf(forMap), forMap);&#10;//}&#10;//System.debug(dataFromList);&#10;//&#10;//for (Integer i = 1; i &lt;=10; i++) {&#10;//    System.debug(3 * count[i]);&#10;//}   &#10;//&#10;//for (Integer i = 1; i&lt;=9; i++) {&#10;//    System.debug(Math.pow(2, i));&#10;//}&#10;&#10;&#10;&#10;&#10;&#10;//List&lt;String&gt; testList = new List&lt;String&gt; {'one one', 'two two', 'three three', 'four four', 'five five', 'six six', 'seven seven', 'eight eight', 'nine nine', 'ten ten'};&#10;//List&lt;String&gt; resultList = new List&lt;String&gt;();&#10;//for (String testString : testList) {&#10;//    &#10;//    resultList.add(one.addPrefix(testString));&#10;//    resultList.add(one.addPostfix(testString));&#10;//    resultList.add(one.removeWhitespaces(testString));&#10;//}&#10;//System.debug(resultList);&#10;&#10;&#10;&#10;&#10;&#10;// task MyStringProcessor&#10;//MyStringProcessor one = new MyStringProcessor();&#10;//&#10;//List&lt;String&gt; testList = new List&lt;String&gt; {'one one', 'two two', 'three three', 'four four', 'five five', 'six six', 'seven seven', 'eight eight', 'nine nine', 'ten ten'};&#10;//List&lt;String&gt; resultList = new List&lt;String&gt;();&#10;//&#10;//one.updateList(testList, resultList);&#10;//&#10;//System.debug(testList);&#10;//System.debug(resultList);&#10;&#10;//euguen.task&#10;&#10;//EuguenTask.compareMethod(10, 7);&#10;//EuguenTask.isDevideMethod(5);&#10;//EuguenTask.calculeMethod(8, 66);&#10;//EuguenTask.countBeforePoint('повоп бяка далфэал бяка длвыппо бяка двыдпов');&#10;&#10;//LoopTask&#10;&#10;//LoopsTaskClass.createList();&#10;//LoopsTaskClass.getMatrix();&#10;//LoopsTaskClass.getMatrixOne();&#10;&#10;//SOQL Task&#10;&#10;Map&lt;String, List&lt;String&gt;&gt; inputData = new Map&lt;String, List&lt;String&gt;&gt;();&#10;inputData.put('Contact', new List&lt;String&gt; {'Id', 'Email' , 'Name', 'Phone'});&#10;inputData.put('Account', new List&lt;String&gt; {'Id' , 'Name', 'CreatedById'});&#10;System.debug(inputData);&#10;System.debug(inputData.keySet());&#10;SOQLbuilder.getSObjects(inputData);&#10;&#10;&#10;&#10;&#10;" />
+            <option name="documentText" value="//&#10;////for (Integer i = 0; i &lt;=9; i++) {&#10;////    Rectangle one = new Rectangle();&#10;////    one.setData(i+1, i+2);&#10;////    System.debug(one.getPerimetr());&#10;////    System.debug(one.getSquare());&#10;////}&#10;////&#10;////for (Integer i = 0; i &lt;=9; i++) {&#10;////    Rectangle three = new Rectangle();&#10;////    System.debug(three.getPerimetr());&#10;////    System.debug(three.getSquare());&#10;////}&#10;//&#10;////learnDML.insertContacts();&#10;//&#10;////DisplayUserInfo.DisplayUserInfo();&#10;//&#10;////Rectangle four = new Rectangle();&#10;////four.setColor(false);&#10;//&#10;//List&lt;Integer&gt; count = new List&lt;Integer&gt;();&#10;//for (Integer i = 0; i &lt;= 100; i++) {&#10;//    count.add(i);&#10;//    count.add(i);&#10;//}&#10;//&#10;//System.debug(count);&#10;//&#10;//Set&lt;Integer&gt; uniqueCount = new Set&lt;Integer&gt;();&#10;//uniqueCount.addAll(count);&#10;//&#10;//System.debug(uniqueCount);&#10;//&#10;//    for (Integer i = 0; i &lt; count.size(); i ++) {&#10;//        if (count.contains(i)) {&#10;//            count.remove(i);&#10;//    }&#10;//}&#10;//System.debug(count);&#10;//&#10;//&#10;//Map&lt;String, Integer&gt; dataFromList = new Map&lt;String, Integer&gt;();&#10;//for (Integer forMap : count) {&#10;//    dataFromList.put(String.valueOf(forMap), forMap);&#10;//}&#10;//System.debug(dataFromList);&#10;//&#10;//for (Integer i = 1; i &lt;=10; i++) {&#10;//    System.debug(3 * count[i]);&#10;//}   &#10;//&#10;//for (Integer i = 1; i&lt;=9; i++) {&#10;//    System.debug(Math.pow(2, i));&#10;//}&#10;&#10;&#10;&#10;&#10;&#10;//List&lt;String&gt; testList = new List&lt;String&gt; {'one one', 'two two', 'three three', 'four four', 'five five', 'six six', 'seven seven', 'eight eight', 'nine nine', 'ten ten'};&#10;//List&lt;String&gt; resultList = new List&lt;String&gt;();&#10;//for (String testString : testList) {&#10;//    &#10;//    resultList.add(one.addPrefix(testString));&#10;//    resultList.add(one.addPostfix(testString));&#10;//    resultList.add(one.removeWhitespaces(testString));&#10;//}&#10;//System.debug(resultList);&#10;&#10;&#10;&#10;&#10;&#10;// task MyStringProcessor&#10;//MyStringProcessor one = new MyStringProcessor();&#10;//&#10;//List&lt;String&gt; testList = new List&lt;String&gt; {'one one', 'two two', 'three three', 'four four', 'five five', 'six six', 'seven seven', 'eight eight', 'nine nine', 'ten ten'};&#10;//List&lt;String&gt; resultList = new List&lt;String&gt;();&#10;//&#10;//one.updateList(testList, resultList);&#10;//&#10;//System.debug(testList);&#10;//System.debug(resultList);&#10;&#10;//euguen.task&#10;&#10;//EuguenTask.compareMethod(10, 7);&#10;//EuguenTask.isDevideMethod(5);&#10;//EuguenTask.calculeMethod(8, 66);&#10;//EuguenTask.countBeforePoint('повоп бяка далфэал бяка длвыппо бяка двыдпов');&#10;&#10;//LoopTask&#10;&#10;//LoopsTaskClass.createList();&#10;//LoopsTaskClass.getMatrix();&#10;//LoopsTaskClass.getMatrixOne();&#10;&#10;//SOQL Task&#10;&#10;//Map&lt;String, List&lt;String&gt;&gt; inputData = new Map&lt;String, List&lt;String&gt;&gt;();&#10;//inputData.put('Contact', new List&lt;String&gt; {'Id', 'Email' , 'Name', 'Phone'});&#10;//inputData.put('Account', new List&lt;String&gt; {'Id' , 'Name', 'CreatedById'});&#10;//System.debug(inputData);&#10;//System.debug(inputData.keySet());&#10;//SOQLbuilder.getSObjects(inputData);&#10;&#10;//SOQLbuilder.insertObject();&#10;//SOQLbuilder.updateObjects('Account');&#10;&#10;//SOQLbuilder.deleteObject('Account');&#10;SOQLbuilder.updateObject('Account');&#10;" />
             <option name="profilingLogLevel" value="NONE" />
-            <option name="splitterProportion" value="0.39895013" />
+            <option name="splitterProportion" value="0.38057742" />
             <option name="systemLogLevel" value="FINE" />
             <option name="validationLogLevel" value="NONE" />
             <option name="visualforceLogLevel" value="NONE" />
@@ -228,7 +156,7 @@
                       <entry key="CLASSES/ACTIONTASK.CLS" value="1532290313142" />
                       <entry key="CLASSES/EUGUENTASK.CLS" value="1531341990350" />
                       <entry key="CLASSES/LOOPSTASKCLASS.CLS" value="1531889102412" />
-                      <entry key="CLASSES/SOQLBUILDER.CLS" value="1532372408888" />
+                      <entry key="CLASSES/SOQLBUILDER.CLS" value="1532461743952" />
                       <entry key="PAGES/ACTIONTASK.PAGE" value="1532290831498" />
                       <entry key="PAGES/PAGEFORREDTHREE.PAGE" value="1532109128000" />
                       <entry key="PAGES/PAGEFORREDTWO.PAGE" value="1532109007000" />
@@ -241,7 +169,7 @@
                         <value>
                           <BuildViewToggles>
                             <option name="showLocalAndServer" value="true" />
-                            <option name="showLocalOnly" value="true" />
+                            <option name="showLocalOnly" value="false" />
                             <option name="showServerOnly" value="true" />
                             <option name="showSubscribedOnly" value="true" />
                           </BuildViewToggles>
@@ -1097,8 +1025,8 @@
                             <option value="Custom%3A Support Profile" />
                             <option value="Test Standard User" />
                             <option value="Customer Community Plus Login User" />
-                            <option value="High Volume Customer Portal User" />
                             <option value="Analytics Cloud Integration User" />
+                            <option value="High Volume Customer Portal User" />
                             <option value="Some Standard User Three" />
                             <option value="Force%2Ecom - Free User" />
                             <option value="Cross Org Data Proxy User" />
@@ -1120,21 +1048,21 @@
                             <option value="ReadOnly" />
                             <option value="Chatter Free User" />
                             <option value="HighVolumePortal" />
+                            <option value="MarketingProfile" />
                             <option value="Customer Community Login User" />
                             <option value="Customer Portal Manager Standard" />
-                            <option value="MarketingProfile" />
                             <option value="Analytics Cloud Security User" />
                             <option value="Admin" />
+                            <option value="Silver Partner User" />
                             <option value="Work%2Ecom Only User" />
                             <option value="Partner App Subscription User" />
-                            <option value="Silver Partner User" />
                             <option value="Authenticated Website" />
                             <option value="Some Standard User" />
                             <option value="Customer Community User" />
                             <option value="Test Standard User Three" />
                             <option value="Custom%3A Marketing Profile" />
-                            <option value="Customer Portal Manager Custom" />
                             <option value="CPQ Integration User" />
+                            <option value="Customer Portal Manager Custom" />
                           </set>
                         </option>
                         <option name="name" value="Profile" />
@@ -1154,13 +1082,13 @@
                             <option value="MacroAction" />
                             <option value="Site" />
                             <option value="Account" />
-                            <option value="Task" />
                             <option value="CollaborationGroup" />
-                            <option value="User" />
+                            <option value="Task" />
                             <option value="Child__c" />
                             <option value="Organization" />
-                            <option value="Product2" />
+                            <option value="User" />
                             <option value="OpportunityLineItem" />
+                            <option value="Product2" />
                             <option value="Macro" />
                             <option value="MacroInstruction" />
                             <option value="DuplicateRecordItem" />
@@ -1173,17 +1101,17 @@
                             <option value="Lead" />
                             <option value="Asset" />
                             <option value="DuplicateRecordSet" />
-                            <option value="Topic" />
                             <option value="CampaignMember" />
+                            <option value="Topic" />
                             <option value="Solution" />
-                            <option value="Order" />
                             <option value="QuickText" />
-                            <option value="StreamActivityAccess" />
                             <option value="CollaborationGroupMember" />
+                            <option value="Order" />
+                            <option value="StreamActivityAccess" />
                             <option value="AssetRelationship" />
-                            <option value="DandBCompany" />
                             <option value="StreamingChannel" />
                             <option value="Parent__c" />
+                            <option value="DandBCompany" />
                             <option value="EmailMessage" />
                             <option value="UserProvisioningRequest" />
                             <option value="OrgDeleteRequest" />
@@ -1221,9 +1149,9 @@
                             <option value="Product" />
                             <option value="Security" />
                             <option value="Knowledge" />
-                            <option value="Case" />
-                            <option value="Name" />
                             <option value="Ideas" />
+                            <option value="Name" />
+                            <option value="Case" />
                             <option value="FieldService" />
                             <option value="Search" />
                             <option value="Opportunity" />
@@ -1234,11 +1162,11 @@
                             <option value="BusinessHours" />
                             <option value="Forecasting" />
                             <option value="Mobile" />
-                            <option value="Quote" />
                             <option value="LiveAgent" />
+                            <option value="Quote" />
                             <option value="Entitlement" />
-                            <option value="PathAssistant" />
                             <option value="Contract" />
+                            <option value="PathAssistant" />
                           </set>
                         </option>
                         <option name="name" value="Settings" />
@@ -1292,17 +1220,17 @@
                             <option value="Contact-Contact %28Support%29 Layout" />
                             <option value="Product2-Product Layout" />
                             <option value="Lead-Lead Layout" />
-                            <option value="Contact-Contact Layout" />
                             <option value="Case-Case %28Sales%29 Layout" />
+                            <option value="Contact-Contact Layout" />
                             <option value="Lead-Lead %28Support%29 Layout" />
                             <option value="DandBCompany-D%26B Company Layout" />
                             <option value="AssetRelationship-Asset Relationship Layout" />
                             <option value="Case-Case %28Support%29 Layout" />
                             <option value="Macro-Macro Layout" />
                             <option value="Order-Order Layout" />
-                            <option value="Solution-Solution Layout" />
                             <option value="ScorecardMetric-Scorecard Metric Layout" />
                             <option value="UserProvisioningRequest-User Provisioning Request Layout" />
+                            <option value="Solution-Solution Layout" />
                             <option value="Event-Event Layout" />
                             <option value="Pricebook2-Price Book Layout" />
                             <option value="UserProvisioningLog-User Provisioning Log Layout" />
@@ -1331,16 +1259,16 @@
                             <option value="ContentVersion-Content Version Layout" />
                             <option value="Opportunity-Opportunity %28Support%29 Layout" />
                             <option value="Global-Global Layout" />
-                            <option value="Lead-Lead %28Sales%29 Layout" />
                             <option value="Account-Account %28Marketing%29 Layout" />
-                            <option value="Crow__c-Crow Layout" />
+                            <option value="Lead-Lead %28Sales%29 Layout" />
                             <option value="EmailMessage-Email Message Layout" />
+                            <option value="Crow__c-Crow Layout" />
                             <option value="SocialPost-Social Post Layout" />
-                            <option value="CampaignMember-Campaign Member Page Layout" />
                             <option value="Account-Account %28Support%29 Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
                             <option value="QuickText-Quick Text Layout" />
-                            <option value="Contact-Contact %28Sales%29 Layout" />
                             <option value="User-User Layout" />
+                            <option value="Contact-Contact %28Sales%29 Layout" />
                             <option value="Parent__c-Parent Layout" />
                             <option value="Lead-Lead %28Marketing%29 Layout" />
                             <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
@@ -1357,8 +1285,8 @@
                             <option value="DisplayUserInfo" />
                             <option value="StandartContTaskOne" />
                             <option value="PageForRefOne" />
-                            <option value="ActionTask" />
                             <option value="CustomContTaskTwo" />
+                            <option value="ActionTask" />
                             <option value="PageForRedThree" />
                             <option value="UseTemplatePage" />
                             <option value="PageForRedTwo" />
@@ -1370,11 +1298,46 @@
                       <MetadataType>
                         <option name="members">
                           <set>
+                            <option value="soql" />
+                            <option value="TemplateComponentController" />
+                            <option value="SomeNewClass" />
+                            <option value="VirtualClass" />
+                            <option value="Rectangle" />
+                            <option value="ActionTask" />
+                            <option value="MyAbstractClass" />
+                            <option value="learnDML" />
+                            <option value="SOQLbuilder" />
+                            <option value="CrowCalcTest" />
+                            <option value="SomeClass" />
+                            <option value="ExceptionTask" />
+                            <option value="SheduleTask" />
+                            <option value="StandartContOneController" />
+                            <option value="SecondAsyncTask" />
+                            <option value="LoopsTaskClass" />
+                            <option value="CustomContTaskOne" />
+                            <option value="BatchTask" />
+                            <option value="CrowCalc" />
+                            <option value="AsyncTask" />
+                            <option value="SecondSheduleTask" />
+                            <option value="MyVirtualClass" />
+                            <option value="MyStringProcessor" />
+                            <option value="SomeAbstractClass" />
+                            <option value="DisplayUserInfo" />
+                            <option value="CustomContTaskTwo" />
+                            <option value="StringProcessor" />
+                            <option value="EuguenTask" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexClass" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
                             <option value="Account" />
-                            <option value="Task" />
                             <option value="CollaborationGroup" />
-                            <option value="OpportunityLineItem" />
+                            <option value="Task" />
                             <option value="ForecastingCategoryMapping" />
+                            <option value="OpportunityLineItem" />
                             <option value="CaseContactRole" />
                             <option value="Activity" />
                             <option value="Document" />
@@ -1389,20 +1352,20 @@
                             <option value="CampaignMember" />
                             <option value="Order" />
                             <option value="CollaborationGroupMember" />
+                            <option value="StreamingChannel" />
                             <option value="Parent__c" />
                             <option value="AccountContactRole" />
-                            <option value="StreamingChannel" />
                             <option value="EmailMessage" />
-                            <option value="AccountCleanInfo" />
                             <option value="Pricebook2" />
+                            <option value="AccountCleanInfo" />
                             <option value="UserProvisioningRequest" />
-                            <option value="OrgDeleteRequest" />
                             <option value="PricebookEntry" />
-                            <option value="Campaign" />
+                            <option value="OrgDeleteRequest" />
                             <option value="LeadCleanInfo" />
+                            <option value="Campaign" />
                             <option value="Idea" />
-                            <option value="Contract" />
                             <option value="ScorecardAssociation" />
+                            <option value="Contract" />
                             <option value="PartnerRole" />
                             <option value="OpportunityCompetitor" />
                             <option value="MacroAction" />
@@ -1418,12 +1381,12 @@
                             <option value="Opportunity" />
                             <option value="Lead" />
                             <option value="DuplicateRecordSet" />
-                            <option value="Scorecard" />
                             <option value="Topic" />
+                            <option value="Scorecard" />
                             <option value="Solution" />
+                            <option value="AssetRelationship" />
                             <option value="StreamActivityAccess" />
                             <option value="QuickText" />
-                            <option value="AssetRelationship" />
                             <option value="DandBCompany" />
                             <option value="OpportunityContactRole" />
                             <option value="Contact" />
@@ -1449,41 +1412,6 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="soql" />
-                            <option value="TemplateComponentController" />
-                            <option value="SomeNewClass" />
-                            <option value="Rectangle" />
-                            <option value="VirtualClass" />
-                            <option value="ActionTask" />
-                            <option value="MyAbstractClass" />
-                            <option value="learnDML" />
-                            <option value="SOQLbuilder" />
-                            <option value="CrowCalcTest" />
-                            <option value="SomeClass" />
-                            <option value="SheduleTask" />
-                            <option value="ExceptionTask" />
-                            <option value="StandartContOneController" />
-                            <option value="SecondAsyncTask" />
-                            <option value="LoopsTaskClass" />
-                            <option value="CustomContTaskOne" />
-                            <option value="BatchTask" />
-                            <option value="CrowCalc" />
-                            <option value="AsyncTask" />
-                            <option value="SecondSheduleTask" />
-                            <option value="MyVirtualClass" />
-                            <option value="MyStringProcessor" />
-                            <option value="SomeAbstractClass" />
-                            <option value="DisplayUserInfo" />
-                            <option value="CustomContTaskTwo" />
-                            <option value="StringProcessor" />
-                            <option value="EuguenTask" />
-                          </set>
-                        </option>
-                        <option name="name" value="ApexClass" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="Opportunity.TrackingNumber__c" />
                             <option value="Account.Active__c" />
                             <option value="Case.SLAViolation__c" />
@@ -1492,8 +1420,8 @@
                             <option value="Lead.CurrentGenerators__c" />
                             <option value="Account.NumberofLocations__c" />
                             <option value="Contact.Level__c" />
-                            <option value="Opportunity.MainCompetitors__c" />
                             <option value="Child__c.Parent__c" />
+                            <option value="Opportunity.MainCompetitors__c" />
                             <option value="Account.UpsellOpportunity__c" />
                             <option value="Account.SLASerialNumber__c" />
                             <option value="Goal.OrigGoalId__c" />
@@ -1502,8 +1430,8 @@
                             <option value="Lead.SICCode__c" />
                             <option value="Contact.Languages__c" />
                             <option value="Opportunity.OrderNumber__c" />
-                            <option value="Case.EngineeringReqNumber__c" />
                             <option value="Metric.OrigMetricId__c" />
+                            <option value="Case.EngineeringReqNumber__c" />
                             <option value="Account.SLAExpirationDate__c" />
                             <option value="Opportunity.CurrentGenerators__c" />
                             <option value="Case.PotentialLiability__c" />
@@ -1517,24 +1445,24 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Contact.Go_To_Contact" />
-                            <option value="Opportunity.DeliveryStatus" />
-                            <option value="Campaign.ViewCampaignInfluenceReport" />
-                            <option value="Case.UpsellCrosssellOpportunity" />
-                            <option value="Account.Billing" />
-                          </set>
-                        </option>
-                        <option name="name" value="WebLink" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="Metric.Progress" />
                             <option value="Metric.Completion" />
                             <option value="Contact.VIP" />
                           </set>
                         </option>
                         <option name="name" value="RecordType" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Contact.Go_To_Contact" />
+                            <option value="Campaign.ViewCampaignInfluenceReport" />
+                            <option value="Opportunity.DeliveryStatus" />
+                            <option value="Case.UpsellCrosssellOpportunity" />
+                            <option value="Account.Billing" />
+                          </set>
+                        </option>
+                        <option name="name" value="WebLink" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -1551,8 +1479,8 @@
                             <option value="Opportunity.ClosingNextMonth" />
                             <option value="Contact.AllContacts" />
                             <option value="Parent__c.All" />
-                            <option value="Case.MyOpenCases" />
                             <option value="Opportunity.Default_Opportunity_Pipeline" />
+                            <option value="Case.MyOpenCases" />
                             <option value="Opportunity.Private" />
                             <option value="Contract.AllContracts" />
                             <option value="Contract.MyActivatedContracts" />
@@ -1562,22 +1490,22 @@
                             <option value="Task.DelegatedTasks" />
                             <option value="SocialPersona.AllSocialPersonas" />
                             <option value="User.AllUsers" />
-                            <option value="Task.UnscheduledTasks" />
                             <option value="Contract.MyDraftContracts" />
+                            <option value="Task.UnscheduledTasks" />
                             <option value="Lead.TodaysLeads" />
                             <option value="Task.CompletedTasks" />
                             <option value="Solution.AllUnreviewedSolutions" />
-                            <option value="Account.NewLastWeek" />
                             <option value="Activity.UpcomingEvents" />
+                            <option value="Account.NewLastWeek" />
                             <option value="Account.MyAccounts" />
                             <option value="Opportunity.AllOpportunities" />
                             <option value="Task.OpenTasks" />
                             <option value="Task.OverdueTasks" />
                             <option value="Contact.BirthdaysThisMonth" />
-                            <option value="Opportunity.ClosingThisMonth" />
                             <option value="Account.AllAccounts" />
-                            <option value="Contact.NewThisWeek" />
+                            <option value="Opportunity.ClosingThisMonth" />
                             <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Contact.NewThisWeek" />
                             <option value="Activity.AllActivities" />
                             <option value="Opportunity.NewLastWeek" />
                             <option value="Asset.AllAssets" />
@@ -1586,13 +1514,13 @@
                             <option value="Opportunity.MyOpportunities" />
                             <option value="Campaign.MyActiveCampaigns" />
                             <option value="Lead.MyUnreadLeads" />
-                            <option value="Campaign.AllActiveCampaigns" />
                             <option value="Product2.AllProducts" />
+                            <option value="Campaign.AllActiveCampaigns" />
                             <option value="Activity.TodaysTasks" />
                             <option value="Contact.MyContacts" />
                             <option value="Task.RecurringTasks" />
-                            <option value="Opportunity.Won" />
                             <option value="Case.AllClosedCases" />
+                            <option value="Opportunity.Won" />
                             <option value="Child__c.All" />
                             <option value="Solution.AllReviewedSolutions" />
                             <option value="Account.PlatinumandGoldSLACustomers" />
@@ -1615,14 +1543,6 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="DE Default" />
-                          </set>
-                        </option>
-                        <option name="name" value="HomePageLayout" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="Internal Zone" />
                           </set>
                         </option>
@@ -1631,11 +1551,19 @@
                       <MetadataType>
                         <option name="members">
                           <set>
+                            <option value="DE Default" />
+                          </set>
+                        </option>
+                        <option name="name" value="HomePageLayout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
                             <option value="Order" />
-                            <option value="Account" />
                             <option value="Parent__c" />
-                            <option value="Child__c" />
+                            <option value="Account" />
                             <option value="User" />
+                            <option value="Child__c" />
                             <option value="Case" />
                             <option value="Contact" />
                             <option value="Crow__c" />
@@ -1658,18 +1586,18 @@
                             <option value="MarketingTeam" />
                             <option value="COO" />
                             <option value="DirectorChannelSales" />
-                            <option value="InstallationRepairServices" />
                             <option value="User_Two" />
+                            <option value="InstallationRepairServices" />
                             <option value="SVPHumanResources" />
                             <option value="SVPCustomerServiceSupport" />
                             <option value="VPInternationalSales" />
-                            <option value="EasternSalesTeam" />
-                            <option value="ChannelSalesTeam" />
                             <option value="CEO" />
+                            <option value="ChannelSalesTeam" />
+                            <option value="EasternSalesTeam" />
                             <option value="CFO" />
                             <option value="CustomerSupportInternational" />
-                            <option value="CustomerSupportNorthAmerica" />
                             <option value="User_One" />
+                            <option value="CustomerSupportNorthAmerica" />
                             <option value="WesternSalesTeam" />
                             <option value="VPMarketing" />
                             <option value="VPNorthAmericanSales" />
@@ -1690,6 +1618,15 @@
                       <MetadataType>
                         <option name="members">
                           <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
                             <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
                             <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
                             <option value="Account.Standard_Account_Match_Rule_v1_0" />
@@ -1700,17 +1637,8 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Lead" />
-                            <option value="Case" />
-                          </set>
-                        </option>
-                        <option name="name" value="AssignmentRules" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Lead.Standard" />
                             <option value="Case.Standard" />
+                            <option value="Lead.Standard" />
                           </set>
                         </option>
                         <option name="name" value="AssignmentRule" />
@@ -1723,20 +1651,29 @@
                             <option value="standard__ServiceConsole" />
                             <option value="standard__Community" />
                             <option value="standard__AppLauncher" />
-                            <option value="standard__Chatter" />
                             <option value="standard__LightningInstrumentation" />
+                            <option value="standard__Chatter" />
                             <option value="standard__Platform" />
-                            <option value="standard__LightningSales" />
                             <option value="standard__Service" />
-                            <option value="standard__Content" />
+                            <option value="standard__LightningSales" />
                             <option value="standard__Marketing" />
                             <option value="standard__Sites" />
-                            <option value="standard__LightningBolt" />
+                            <option value="standard__Content" />
                             <option value="standard__LightningSalesConsole" />
+                            <option value="standard__LightningBolt" />
                             <option value="standard__Insights" />
                           </set>
                         </option>
                         <option name="name" value="CustomApplication" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AutoResponseRules" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -1751,11 +1688,12 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Lead" />
-                            <option value="Case" />
+                            <option value="Teas_Account_LAyout" />
+                            <option value="LightningSalesConsole_UtilityBar" />
+                            <option value="LightningService_UtilityBar" />
                           </set>
                         </option>
-                        <option name="name" value="AutoResponseRules" />
+                        <option name="name" value="FlexiPage" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -1768,52 +1706,33 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Teas_Account_LAyout" />
-                            <option value="LightningSalesConsole_UtilityBar" />
-                            <option value="LightningService_UtilityBar" />
-                          </set>
-                        </option>
-                        <option name="name" value="FlexiPage" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Task.EditDescription" />
                             <option value="NewGroup" />
+                            <option value="Task.EditDescription" />
                             <option value="FeedItem.NewTaskFromFeedItem" />
                             <option value="NewNote" />
                             <option value="CollaborationGroup.NewGroupMember" />
                             <option value="Task.EditDescription_0" />
                             <option value="CollaborationGroup.NewGroupRecord" />
-                            <option value="SendEmail" />
                             <option value="NewLead" />
+                            <option value="SendEmail" />
                             <option value="Task.UpdateStatus" />
                             <option value="NewOpportunity" />
                             <option value="NewTask" />
                             <option value="Task.Defer_0" />
-                            <option value="NewAccount" />
                             <option value="Task.UpdateStatus_0" />
+                            <option value="NewAccount" />
                             <option value="Case.LogACall" />
                             <option value="Case.NewChildCase" />
                             <option value="Task.UpdatePriority" />
                             <option value="Task.UpdatePriority_0" />
                             <option value="NewContact" />
-                            <option value="NewCase" />
                             <option value="Task.Defer" />
-                            <option value="NewEvent" />
+                            <option value="NewCase" />
                             <option value="LogACall" />
+                            <option value="NewEvent" />
                           </set>
                         </option>
                         <option name="name" value="QuickAction" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Salesforce1" />
-                            <option value="AppSwitcher" />
-                          </set>
-                        </option>
-                        <option name="name" value="AppMenu" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -1823,6 +1742,15 @@
                           </set>
                         </option>
                         <option name="name" value="PermissionSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Salesforce1" />
+                            <option value="AppSwitcher" />
+                          </set>
+                        </option>
+                        <option name="name" value="AppMenu" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -1933,8 +1861,8 @@
                           <set>
                             <option value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
                             <option value="unfiled$public/SupportSelfServiceResetPassword" />
-                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
                             <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
+                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
                             <option value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
                             <option value="unfiled$public/SupportCaseAssignmentNotification" />
                             <option value="unfiled$public/SupportCaseResponse" />
@@ -1942,8 +1870,8 @@
                             <option value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
                             <option value="unfiled$public/SupportCaseCreatedWebInquiries" />
                             <option value="unfiled$public/SupportEscalatedCaseNotification" />
-                            <option value="unfiled$public/MarketingProductInquiryResponse" />
                             <option value="unfiled$public/SupportEscalatedCaseReassignment" />
+                            <option value="unfiled$public/MarketingProductInquiryResponse" />
                           </set>
                         </option>
                         <option name="name" value="EmailTemplate" />
@@ -2811,6 +2739,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2833,7 +2762,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2941,12 +2869,14 @@
       <workItem from="1532287306271" duration="4099000" />
       <workItem from="1532318611092" duration="173000" />
       <workItem from="1532320937119" duration="19000" />
-      <workItem from="1532366902158" duration="6195000" />
+      <workItem from="1532366902158" duration="6378000" />
+      <workItem from="1532453255107" duration="161000" />
+      <workItem from="1532453841499" duration="5994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116260000" />
+    <option name="totallyTimeSpent" value="122598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -2954,7 +2884,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39203084" side_tool="true" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.6510283" visible="true" weight="0.41192412" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.6510283" weight="0.41192412" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -2972,8 +2902,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993573" weight="0.3292683" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.32197943" />
-      <window_info anchor="bottom" id="Problems" order="8" sideWeight="0.60796916" weight="0.3292683" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.33097687" />
+      <window_info active="true" anchor="bottom" id="Problems" order="8" sideWeight="0.60796916" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="SOQL Query" order="7" weight="0.69376695" />
       <window_info anchor="bottom" id="Log Viewer" order="7" sideWeight="0.6510283" weight="0.4200542" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -3250,9 +3180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="69" column="23" selection-end-line="147" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3272,8 +3199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/SOQLbuilder.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="154">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
