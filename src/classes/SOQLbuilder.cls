@@ -57,11 +57,11 @@ public with sharing class SOQLbuilder {
         sObject sObj = Schema.getGlobalDescribe().get(objName).newSObject();
         sObj.put(fieldOne , descrOne);
         sObj.put(fieldTwo , descrTwo);
-        Database.SaveResult resultList = Database.insert(sObj, false);
-        if (resultList.isSuccess()) {
+        Database.SaveResult result = Database.insert(sObj, false);
+        if (result.isSuccess()) {
             System.debug(objName + ' was successfully inserted');
         } else {
-            for (Database.Error err : resultList.getErrors()) {
+            for (Database.Error err : result.getErrors()) {
                 System.debug('The following error has occurred.');
                 System.debug(err.getStatusCode() + ': ' + err.getMessage());
             }
@@ -69,7 +69,7 @@ public with sharing class SOQLbuilder {
         System.debug(sObj);
     }
 
-//update objects
+//update objects and handle with showDMLOperationResult private method
     public static void updateObjects(String objName, String fieldOne, String descrOne) {
         List<sObject> selectObjects = Database.query('SELECT Name, Description ' + ' FROM ' + objName +  ' LIMIT 2');
         for (sObject myObj : selectObjects) {
@@ -77,21 +77,12 @@ public with sharing class SOQLbuilder {
         }
         Database.SaveResult[] updateList = Database.update(selectObjects, false);
         System.debug(updateList);
-        for (Database.SaveResult updLi : updateList) {
-            if (updLi.isSuccess()) {
-                System.debug(objName + ' was successfully updated.');
-            } else {
-                for (Database.Error err : updLi.getErrors()) {
-                    System.debug('The following error has occurred.');
-                    System.debug(err.getStatusCode() + ': ' + err.getMessage());
-                }
-            }
-        }
+        showDMLOperationResult(objName + ' was successfully updated.', updateList);
 
         System.debug(selectObjects);
     }
 
-//delete objects
+//delete objects and handle with Database.Error
     public static void deleteObjects(String objName, String forDelete) {
         List<sObject> delList = Database.query('SELECT ' + forDelete + ' FROM ' + objName + ' LIMIT 2');
         System.debug(delList);
@@ -129,7 +120,6 @@ public with sharing class SOQLbuilder {
     }
 
     private static void showDMLOperationResult(String successResult, List<Database.SaveResult> results) {
-        System.debug('WTF');
         for (Database.SaveResult res : results) {
             if (res.isSuccess()) {
                 System.debug(successResult);

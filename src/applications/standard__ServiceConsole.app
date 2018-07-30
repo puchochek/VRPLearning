@@ -176,12 +176,16 @@
     <tab>Child__c</tab>
     <tab>Parent__c</tab>
     <tab>Crow__c</tab>
+    <tab>Folder__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>Child__c</tab>
         </mapping>
         <mapping>
             <tab>Crow__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Folder__c</tab>
         </mapping>
         <mapping>
             <tab>Parent__c</tab>

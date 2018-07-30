@@ -81,7 +81,15 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ActionTask</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AsyncAp</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -122,6 +130,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LoopsTaskClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MapClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -169,6 +181,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SortPositionTriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>StandartContOneController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -178,6 +194,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TemplateComponentController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestTriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1516,6 +1536,9 @@
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Folder__c-Folder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1779,6 +1802,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>TemplateTask</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>TestPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

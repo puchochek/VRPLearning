@@ -6,8 +6,65 @@
   <component name="ChangeListManager">
     <list default="true" id="e73ddebd-a793-4e3b-833e-6dd726e67d7a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__AppLauncher.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__AppLauncher.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Chatter.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Chatter.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Community.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Community.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Content.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Content.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningBolt.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningBolt.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningInstrumentation.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningInstrumentation.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningSales.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningSales.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningSalesConsole.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningSalesConsole.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__LightningService.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__LightningService.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Marketing.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Marketing.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Platform.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Platform.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Sales.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Sales.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Service.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Service.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__ServiceConsole.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__ServiceConsole.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/standard__Sites.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/standard__Sites.app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/SOQLbuilder.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/SOQLbuilder.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cleanDataServices/DataCloudGeoLocation.cleanDataService" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleanDataServices/DataCloudGeoLocation.cleanDataService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Admin.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Admin.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Analytics Cloud Integration User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Analytics Cloud Integration User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Analytics Cloud Security User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Analytics Cloud Security User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Authenticated Website.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Authenticated Website.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/CPQ Integration User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/CPQ Integration User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Chatter External User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Chatter External User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Chatter Free User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Chatter Free User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Chatter Moderator User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Chatter Moderator User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/ContractManager.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/ContractManager.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Cross Org Data Proxy User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Cross Org Data Proxy User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Custom%3A Marketing Profile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Custom%3A Marketing Profile.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Custom%3A Sales Profile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Custom%3A Sales Profile.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Custom%3A Support Profile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Custom%3A Support Profile.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community Login User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community Login User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community Plus Login User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community Plus Login User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community Plus User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community Plus User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Community User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Community User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Custom.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Custom.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Standard.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Customer Portal Manager Standard.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/External Identity User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/External Identity User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Force%2Ecom - App Subscription User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Force%2Ecom - App Subscription User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Force%2Ecom - Free User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Force%2Ecom - Free User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Gold Partner User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Gold Partner User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/High Volume Customer Portal User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/High Volume Customer Portal User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/HighVolumePortal.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/HighVolumePortal.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Identity User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Identity User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/MarketingProfile.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/MarketingProfile.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Partner App Subscription User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Partner App Subscription User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Partner Community Login User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Partner Community Login User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Partner Community User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Partner Community User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/PlatformPortal.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/PlatformPortal.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/ReadOnly.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/ReadOnly.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Silver Partner User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Silver Partner User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/SolutionManager.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/SolutionManager.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Some Standard User Three.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Some Standard User Three.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Some Standard User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Some Standard User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Standard.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Standard.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/StandardAul.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/StandardAul.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Test Standard User Three.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Test Standard User Three.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Test Standard User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Test Standard User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiles/Work%2Ecom Only User.profile" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles/Work%2Ecom Only User.profile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/Search.settings" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +79,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SOQLbuilder.cls" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/SOQLbuilder.cls">
+      <file leaf-file-name="LightningTaskApp.app" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskApp/LightningTaskApp.app">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LightningTaskComponent.cmp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponent.cmp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="29" column="92" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LightningTaskComponentController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponentController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LightningTaskComponentHelper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponentHelper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountController.cls" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/AccountController.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -85,6 +177,11 @@
         <option value="$PROJECT_DIR$/src/classes/ActionTask.cls" />
         <option value="$PROJECT_DIR$/src/pages/ActionTask.page" />
         <option value="$PROJECT_DIR$/src/classes/SOQLbuilder.cls" />
+        <option value="$PROJECT_DIR$/src/triggers/SortPosition.trigger" />
+        <option value="$PROJECT_DIR$/src/classes/SortPositionTriggerHandler.cls" />
+        <option value="$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponentHelper.js" />
+        <option value="$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponent.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponentController.js" />
       </list>
     </option>
   </component>
@@ -153,13 +250,16 @@
                 <ConnectionWorkspaceSettings>
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
+                      <entry key="AURA/LIGHTNINGTASKCOMPONENT" value="1532974984342" />
                       <entry key="CLASSES/ACTIONTASK.CLS" value="1532290313142" />
                       <entry key="CLASSES/EUGUENTASK.CLS" value="1531341990350" />
                       <entry key="CLASSES/LOOPSTASKCLASS.CLS" value="1531889102412" />
-                      <entry key="CLASSES/SOQLBUILDER.CLS" value="1532549930474" />
+                      <entry key="CLASSES/SOQLBUILDER.CLS" value="1532577569427" />
+                      <entry key="CLASSES/SORTPOSITIONTRIGGERHANDLER.CLS" value="1532887557233" />
                       <entry key="PAGES/ACTIONTASK.PAGE" value="1532290831498" />
                       <entry key="PAGES/PAGEFORREDTHREE.PAGE" value="1532109128000" />
                       <entry key="PAGES/PAGEFORREDTWO.PAGE" value="1532109007000" />
+                      <entry key="TRIGGERS/SORTPOSITION.TRIGGER" value="1532874792581" />
                     </map>
                   </option>
                   <option name="lastBuildScope" value="CONTEXT" />
@@ -169,7 +269,7 @@
                         <value>
                           <BuildViewToggles>
                             <option name="showLocalAndServer" value="true" />
-                            <option name="showLocalOnly" value="false" />
+                            <option name="showLocalOnly" value="true" />
                             <option name="showServerOnly" value="true" />
                             <option name="showSubscribedOnly" value="true" />
                           </BuildViewToggles>
@@ -1022,30 +1122,30 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="NewGroup" />
                             <option value="Task.EditDescription" />
+                            <option value="NewGroup" />
                             <option value="FeedItem.NewTaskFromFeedItem" />
                             <option value="NewNote" />
                             <option value="CollaborationGroup.NewGroupMember" />
                             <option value="Task.EditDescription_0" />
                             <option value="CollaborationGroup.NewGroupRecord" />
-                            <option value="NewLead" />
                             <option value="SendEmail" />
+                            <option value="NewLead" />
                             <option value="Task.UpdateStatus" />
                             <option value="NewOpportunity" />
                             <option value="NewTask" />
                             <option value="Task.Defer_0" />
-                            <option value="NewAccount" />
                             <option value="Task.UpdateStatus_0" />
-                            <option value="Task.UpdatePriority" />
+                            <option value="NewAccount" />
                             <option value="Case.LogACall" />
+                            <option value="Task.UpdatePriority" />
                             <option value="Case.NewChildCase" />
                             <option value="Task.UpdatePriority_0" />
                             <option value="NewContact" />
-                            <option value="Task.Defer" />
                             <option value="NewCase" />
-                            <option value="LogACall" />
+                            <option value="Task.Defer" />
                             <option value="NewEvent" />
+                            <option value="LogACall" />
                           </set>
                         </option>
                         <option name="name" value="QuickAction" />
@@ -1053,9 +1153,10 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Crow__c" />
                             <option value="Parent__c" />
+                            <option value="Crow__c" />
                             <option value="Child__c" />
+                            <option value="Folder__c" />
                           </set>
                         </option>
                         <option name="name" value="CustomTab" />
@@ -1084,8 +1185,8 @@
                             <option value="PlatformPortal" />
                             <option value="External Identity User" />
                             <option value="Force%2Ecom - App Subscription User" />
-                            <option value="Chatter External User" />
                             <option value="Standard" />
+                            <option value="Chatter External User" />
                             <option value="Identity User" />
                             <option value="Custom%3A Sales Profile" />
                             <option value="Partner Community Login User" />
@@ -1095,17 +1196,17 @@
                             <option value="StandardAul" />
                             <option value="Chatter Moderator User" />
                             <option value="Gold Partner User" />
-                            <option value="ReadOnly" />
                             <option value="SolutionManager" />
+                            <option value="ReadOnly" />
                             <option value="Chatter Free User" />
                             <option value="HighVolumePortal" />
-                            <option value="MarketingProfile" />
                             <option value="Customer Community Login User" />
                             <option value="Customer Portal Manager Standard" />
+                            <option value="MarketingProfile" />
                             <option value="Analytics Cloud Security User" />
                             <option value="Admin" />
-                            <option value="Partner App Subscription User" />
                             <option value="Work%2Ecom Only User" />
+                            <option value="Partner App Subscription User" />
                             <option value="Silver Partner User" />
                             <option value="Authenticated Website" />
                             <option value="Some Standard User" />
@@ -1126,13 +1227,14 @@
                             <option value="Account" />
                             <option value="Child__c" />
                             <option value="User" />
-                            <option value="Case" />
                             <option value="Contact" />
+                            <option value="Case" />
                             <option value="Crow__c" />
                             <option value="FlowInterview" />
                             <option value="Campaign" />
                             <option value="ListEmail" />
                             <option value="Opportunity" />
+                            <option value="Folder__c" />
                             <option value="Lead" />
                             <option value="Asset" />
                           </set>
@@ -1147,17 +1249,17 @@
                             <option value="standard__ServiceConsole" />
                             <option value="standard__Community" />
                             <option value="standard__AppLauncher" />
-                            <option value="standard__Chatter" />
                             <option value="standard__LightningInstrumentation" />
+                            <option value="standard__Chatter" />
                             <option value="standard__Platform" />
                             <option value="standard__LightningSales" />
                             <option value="standard__Service" />
-                            <option value="standard__Content" />
                             <option value="standard__Sites" />
+                            <option value="standard__Content" />
                             <option value="standard__Marketing" />
+                            <option value="standard__LightningSalesConsole" />
                             <option value="standard__Insights" />
                             <option value="standard__LightningBolt" />
-                            <option value="standard__LightningSalesConsole" />
                           </set>
                         </option>
                         <option name="name" value="CustomApplication" />
@@ -1177,8 +1279,8 @@
                             <option value="Opportunity.NewThisWeek" />
                             <option value="Crow__c.All" />
                             <option value="Case.AllOpenCases" />
-                            <option value="Case.MyCases" />
                             <option value="Order.AllDraftOrders" />
+                            <option value="Case.MyCases" />
                             <option value="User.ActiveUsers" />
                             <option value="Order.AllOrders" />
                             <option value="Scorecard.MyScorecards" />
@@ -1192,12 +1294,13 @@
                             <option value="Contract.MyActivatedContracts" />
                             <option value="Contract.AllDraftContracts" />
                             <option value="WorkFeedbackRequest.AboutTopics" />
+                            <option value="Folder__c.All" />
                             <option value="Contact.NewLastWeek" />
                             <option value="Task.DelegatedTasks" />
                             <option value="SocialPersona.AllSocialPersonas" />
                             <option value="User.AllUsers" />
-                            <option value="Contract.MyDraftContracts" />
                             <option value="Task.UnscheduledTasks" />
+                            <option value="Contract.MyDraftContracts" />
                             <option value="Lead.TodaysLeads" />
                             <option value="Task.CompletedTasks" />
                             <option value="Solution.AllUnreviewedSolutions" />
@@ -1208,30 +1311,31 @@
                             <option value="Task.OpenTasks" />
                             <option value="Task.OverdueTasks" />
                             <option value="Contact.BirthdaysThisMonth" />
-                            <option value="Account.AllAccounts" />
                             <option value="Opportunity.ClosingThisMonth" />
-                            <option value="Contact.NewThisWeek" />
+                            <option value="Account.AllAccounts" />
                             <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Contact.NewThisWeek" />
                             <option value="Activity.AllActivities" />
                             <option value="Opportunity.NewLastWeek" />
                             <option value="Asset.AllAssets" />
                             <option value="User.AdminUsers" />
                             <option value="Scorecard.AllScorecards" />
-                            <option value="Campaign.MyActiveCampaigns" />
                             <option value="Opportunity.MyOpportunities" />
+                            <option value="Campaign.MyActiveCampaigns" />
                             <option value="Lead.MyUnreadLeads" />
                             <option value="Campaign.AllActiveCampaigns" />
                             <option value="Product2.AllProducts" />
-                            <option value="Activity.TodaysTasks" />
                             <option value="Contact.MyContacts" />
+                            <option value="Activity.TodaysTasks" />
+                            <option value="Folder__c.Position_c" />
                             <option value="Task.RecurringTasks" />
                             <option value="Opportunity.Won" />
                             <option value="Case.AllClosedCases" />
                             <option value="Child__c.All" />
                             <option value="Solution.AllReviewedSolutions" />
                             <option value="Account.PlatinumandGoldSLACustomers" />
-                            <option value="Activity.MyActivities" />
                             <option value="Task.TodaysTasks" />
+                            <option value="Activity.MyActivities" />
                             <option value="Contract.MyInApprovalContracts" />
                             <option value="Contract.AllInApprovalContracts" />
                             <option value="WorkFeedbackTemplate.All" />
@@ -1288,10 +1392,22 @@
                           <set>
                             <option value="TemplateTask" />
                             <option value="GetUSDComponent" />
+                            <option value="LightningTaskCmp" />
+                            <option value="LightningTaskComponent" />
+                            <option value="LightningTaskApp" />
                             <option value="GetUSD" />
                           </set>
                         </option>
                         <option name="name" value="AuraDefinitionBundle" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="TestTrigger" />
+                            <option value="SortPosition" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexTrigger" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -1307,20 +1423,20 @@
                             <option value="Ideas" />
                             <option value="Case" />
                             <option value="FieldService" />
-                            <option value="Search" />
                             <option value="Opportunity" />
+                            <option value="Search" />
                             <option value="FileUploadAndDownloadSecurity" />
-                            <option value="Activities" />
                             <option value="Order" />
+                            <option value="Activities" />
                             <option value="OrgPreference" />
                             <option value="BusinessHours" />
                             <option value="Forecasting" />
                             <option value="Mobile" />
-                            <option value="LiveAgent" />
                             <option value="Quote" />
+                            <option value="LiveAgent" />
                             <option value="Entitlement" />
-                            <option value="PathAssistant" />
                             <option value="Contract" />
+                            <option value="PathAssistant" />
                           </set>
                         </option>
                         <option name="name" value="Settings" />
@@ -1364,10 +1480,10 @@
                         <option name="members">
                           <set>
                             <option value="Account" />
-                            <option value="CollaborationGroup" />
                             <option value="Task" />
-                            <option value="ForecastingCategoryMapping" />
+                            <option value="CollaborationGroup" />
                             <option value="OpportunityLineItem" />
+                            <option value="ForecastingCategoryMapping" />
                             <option value="CaseContactRole" />
                             <option value="Activity" />
                             <option value="Document" />
@@ -1380,19 +1496,19 @@
                             <option value="SocialPersona" />
                             <option value="Asset" />
                             <option value="CampaignMember" />
-                            <option value="Order" />
                             <option value="CollaborationGroupMember" />
-                            <option value="StreamingChannel" />
+                            <option value="Order" />
                             <option value="Parent__c" />
+                            <option value="StreamingChannel" />
                             <option value="AccountContactRole" />
                             <option value="EmailMessage" />
-                            <option value="AccountCleanInfo" />
                             <option value="Pricebook2" />
+                            <option value="AccountCleanInfo" />
                             <option value="UserProvisioningRequest" />
-                            <option value="OrgDeleteRequest" />
                             <option value="PricebookEntry" />
-                            <option value="Campaign" />
+                            <option value="OrgDeleteRequest" />
                             <option value="LeadCleanInfo" />
+                            <option value="Campaign" />
                             <option value="Idea" />
                             <option value="Contract" />
                             <option value="ScorecardAssociation" />
@@ -1408,14 +1524,15 @@
                             <option value="DuplicateRecordItem" />
                             <option value="Case" />
                             <option value="ContentVersion" />
+                            <option value="Folder__c" />
                             <option value="Opportunity" />
                             <option value="Lead" />
                             <option value="DuplicateRecordSet" />
                             <option value="Scorecard" />
                             <option value="Topic" />
                             <option value="Solution" />
-                            <option value="AssetRelationship" />
                             <option value="StreamActivityAccess" />
+                            <option value="AssetRelationship" />
                             <option value="QuickText" />
                             <option value="DandBCompany" />
                             <option value="OpportunityContactRole" />
@@ -1442,8 +1559,8 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Case.Standard" />
                             <option value="Lead.Standard" />
+                            <option value="Case.Standard" />
                           </set>
                         </option>
                         <option name="name" value="AssignmentRule" />
@@ -1451,14 +1568,14 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="MacroAction" />
                             <option value="Site" />
+                            <option value="MacroAction" />
                             <option value="Account" />
                             <option value="CollaborationGroup" />
                             <option value="Task" />
                             <option value="Organization" />
-                            <option value="User" />
                             <option value="Child__c" />
+                            <option value="User" />
                             <option value="OpportunityLineItem" />
                             <option value="Product2" />
                             <option value="Macro" />
@@ -1469,21 +1586,22 @@
                             <option value="FeedItem" />
                             <option value="ExchangeUserMapping" />
                             <option value="Opportunity" />
+                            <option value="Folder__c" />
                             <option value="SocialPersona" />
                             <option value="Lead" />
                             <option value="Asset" />
                             <option value="DuplicateRecordSet" />
-                            <option value="Topic" />
                             <option value="CampaignMember" />
+                            <option value="Topic" />
                             <option value="Solution" />
-                            <option value="CollaborationGroupMember" />
+                            <option value="Order" />
                             <option value="QuickText" />
                             <option value="AssetRelationship" />
                             <option value="StreamActivityAccess" />
-                            <option value="Order" />
-                            <option value="DandBCompany" />
+                            <option value="CollaborationGroupMember" />
                             <option value="Parent__c" />
                             <option value="StreamingChannel" />
+                            <option value="DandBCompany" />
                             <option value="EmailMessage" />
                             <option value="UserProvisioningRequest" />
                             <option value="OrgDeleteRequest" />
@@ -1554,25 +1672,25 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="User_Three" />
                             <option value="DirectorDirectSales" />
+                            <option value="User_Three" />
                             <option value="SVPSalesMarketing" />
-                            <option value="MarketingTeam" />
                             <option value="COO" />
+                            <option value="MarketingTeam" />
                             <option value="DirectorChannelSales" />
-                            <option value="InstallationRepairServices" />
                             <option value="User_Two" />
+                            <option value="InstallationRepairServices" />
                             <option value="SVPHumanResources" />
                             <option value="SVPCustomerServiceSupport" />
                             <option value="VPInternationalSales" />
                             <option value="CEO" />
                             <option value="EasternSalesTeam" />
                             <option value="ChannelSalesTeam" />
-                            <option value="CFO" />
                             <option value="CustomerSupportInternational" />
-                            <option value="User_One" />
+                            <option value="CFO" />
                             <option value="CustomerSupportNorthAmerica" />
                             <option value="WesternSalesTeam" />
+                            <option value="User_One" />
                             <option value="VPMarketing" />
                             <option value="VPNorthAmericanSales" />
                           </set>
@@ -1585,14 +1703,15 @@
                             <option value="TemplateTask" />
                             <option value="ContactButtonPage" />
                             <option value="CustomContTaskOne" />
+                            <option value="PageForRefOne" />
+                            <option value="ActionTask" />
+                            <option value="PageForRedThree" />
                             <option value="DisplayUserInfo" />
                             <option value="StandartContTaskOne" />
-                            <option value="PageForRefOne" />
                             <option value="CustomContTaskTwo" />
-                            <option value="ActionTask" />
                             <option value="UseTemplatePage" />
-                            <option value="PageForRedThree" />
                             <option value="StandartContTaskTwo" />
+                            <option value="TestPage" />
                             <option value="PageForRedTwo" />
                           </set>
                         </option>
@@ -1630,47 +1749,48 @@
                             <option value="AssetRelationship-Asset Relationship Layout" />
                             <option value="Macro-Macro Layout" />
                             <option value="Order-Order Layout" />
-                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
                             <option value="Solution-Solution Layout" />
                             <option value="ScorecardMetric-Scorecard Metric Layout" />
-                            <option value="Pricebook2-Price Book Layout" />
+                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
                             <option value="Event-Event Layout" />
+                            <option value="Pricebook2-Price Book Layout" />
                             <option value="UserProvisioningLog-User Provisioning Log Layout" />
                             <option value="UserProvAccount-User Provisioning Account Layout" />
                             <option value="Contact-Contact %28Marketing%29 Layout" />
                             <option value="Task-Task Layout" />
                             <option value="Contact-Layout for SysAdmin" />
-                            <option value="Asset-Asset Layout" />
                             <option value="Opportunity-Opportunity Layout" />
+                            <option value="Asset-Asset Layout" />
                             <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
                             <option value="OrderItem-Order Product Layout" />
                             <option value="OpportunityLineItem-Opportunity Product Layout" />
                             <option value="Case-Case Layout" />
                             <option value="Contract-Contract Layout" />
-                            <option value="Child__c-Child Layout" />
                             <option value="Account-Account Layout" />
+                            <option value="Child__c-Child Layout" />
                             <option value="Campaign-Campaign Layout" />
                             <option value="ScorecardAssociation-Scorecard Association Layout" />
                             <option value="Opportunity-Opportunity %28Sales%29 Layout" />
                             <option value="SocialPersona-Social Persona Layout" />
                             <option value="Scorecard-Scorecard Layout" />
                             <option value="Case-Case %28Marketing%29 Layout" />
+                            <option value="Folder__c-Folder Layout" />
                             <option value="PricebookEntry-Price Book Entry Layout" />
                             <option value="CaseClose-Close Case Layout" />
                             <option value="Idea-Idea Layout" />
                             <option value="ContentVersion-Content Version Layout" />
                             <option value="Opportunity-Opportunity %28Support%29 Layout" />
                             <option value="Global-Global Layout" />
-                            <option value="Lead-Lead %28Sales%29 Layout" />
                             <option value="Account-Account %28Marketing%29 Layout" />
+                            <option value="Lead-Lead %28Sales%29 Layout" />
                             <option value="EmailMessage-Email Message Layout" />
                             <option value="Crow__c-Crow Layout" />
                             <option value="SocialPost-Social Post Layout" />
-                            <option value="CampaignMember-Campaign Member Page Layout" />
                             <option value="Account-Account %28Support%29 Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
                             <option value="QuickText-Quick Text Layout" />
-                            <option value="Contact-Contact %28Sales%29 Layout" />
                             <option value="User-User Layout" />
+                            <option value="Contact-Contact %28Sales%29 Layout" />
                             <option value="Parent__c-Parent Layout" />
                             <option value="Lead-Lead %28Marketing%29 Layout" />
                             <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
@@ -1682,7 +1802,6 @@
                         <option name="members">
                           <set>
                             <option value="Test_Set_User_Two" />
-                            <option value="Test_Set_User_One" />
                           </set>
                         </option>
                         <option name="name" value="PermissionSet" />
@@ -1696,8 +1815,8 @@
                             <option value="VirtualClass" />
                             <option value="Rectangle" />
                             <option value="ActionTask" />
-                            <option value="MyAbstractClass" />
                             <option value="learnDML" />
+                            <option value="MyAbstractClass" />
                             <option value="CrowCalcTest" />
                             <option value="SOQLbuilder" />
                             <option value="SomeClass" />
@@ -1707,16 +1826,21 @@
                             <option value="SecondAsyncTask" />
                             <option value="LoopsTaskClass" />
                             <option value="CustomContTaskOne" />
+                            <option value="MapClass" />
                             <option value="BatchTask" />
+                            <option value="AsyncAp" />
                             <option value="CrowCalc" />
                             <option value="AsyncTask" />
                             <option value="SecondSheduleTask" />
+                            <option value="TestTriggerHandler" />
                             <option value="MyVirtualClass" />
                             <option value="MyStringProcessor" />
                             <option value="SomeAbstractClass" />
                             <option value="DisplayUserInfo" />
                             <option value="CustomContTaskTwo" />
                             <option value="StringProcessor" />
+                            <option value="SortPositionTriggerHandler" />
+                            <option value="AccountController" />
                             <option value="EuguenTask" />
                           </set>
                         </option>
@@ -1725,6 +1849,7 @@
                       <MetadataType>
                         <option name="members">
                           <set>
+                            <option value="Folder__c.Position__c" />
                             <option value="Opportunity.TrackingNumber__c" />
                             <option value="Account.Active__c" />
                             <option value="Case.SLAViolation__c" />
@@ -1743,8 +1868,8 @@
                             <option value="Lead.SICCode__c" />
                             <option value="Contact.Languages__c" />
                             <option value="Opportunity.OrderNumber__c" />
-                            <option value="Metric.OrigMetricId__c" />
                             <option value="Case.EngineeringReqNumber__c" />
+                            <option value="Metric.OrigMetricId__c" />
                             <option value="Account.SLAExpirationDate__c" />
                             <option value="Opportunity.CurrentGenerators__c" />
                             <option value="Case.PotentialLiability__c" />
@@ -1833,8 +1958,8 @@
                             <option value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
                             <option value="unfiled$public/SupportCaseCreatedWebInquiries" />
                             <option value="unfiled$public/SupportEscalatedCaseNotification" />
-                            <option value="unfiled$public/SupportEscalatedCaseReassignment" />
                             <option value="unfiled$public/MarketingProductInquiryResponse" />
+                            <option value="unfiled$public/SupportEscalatedCaseReassignment" />
                           </set>
                         </option>
                         <option name="name" value="EmailTemplate" />
@@ -1843,6 +1968,7 @@
                         <option name="members">
                           <set>
                             <option value="Parent__c-en_US" />
+                            <option value="Folder__c-en_US" />
                             <option value="Child__c-en_US" />
                             <option value="Crow__c-en_US" />
                           </set>
@@ -2705,7 +2831,7 @@
         <option name="retrieveAndMergeDefault" value="false" />
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
-            <option name="documentText" value="SELECT (Id, Email, Name) FROM Account LIMIT 2" />
+            <option name="documentText" value="SELECT Name, Id, Position__c&#10;FROM Folder__c&#10;&#10;WHERE Id NOT IN :endPosition" />
           </SoqlQuerySettings>
         </option>
       </ProjectWorkspaceSettings>
@@ -2738,7 +2864,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2755,12 +2880,39 @@
               <item name="Salesforce" type="b2602c69:ProjectViewProjectNode" />
               <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Salesforce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="LightningTaskApp" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Salesforce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="LightningTaskComponent" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Salesforce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Salesforce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="triggers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -2875,12 +3027,21 @@
       <workItem from="1532490084379" duration="410000" />
       <workItem from="1532490901711" duration="1910000" />
       <workItem from="1532541428237" duration="1460000" />
-      <workItem from="1532543307228" duration="6358000" />
+      <workItem from="1532543307228" duration="6506000" />
+      <workItem from="1532576573464" duration="1848000" />
+      <workItem from="1532661216365" duration="4248000" />
+      <workItem from="1532711107541" duration="656000" />
+      <workItem from="1532711797870" duration="632000" />
+      <workItem from="1532868452255" duration="8984000" />
+      <workItem from="1532879184806" duration="5128000" />
+      <workItem from="1532922594907" duration="891000" />
+      <workItem from="1532969265717" duration="1402000" />
+      <workItem from="1532971644719" duration="3496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132962000" />
+    <option name="totallyTimeSpent" value="160395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -2888,7 +3049,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39203084" side_tool="true" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.6510283" visible="true" weight="0.4322493" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.6510283" weight="0.4322493" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -2906,9 +3067,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993573" weight="0.3292683" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.34897172" />
-      <window_info anchor="bottom" id="Problems" order="8" sideWeight="0.60796916" weight="0.3292683" />
-      <window_info anchor="bottom" id="SOQL Query" order="7" weight="0.69376695" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.18701799" />
+      <window_info active="true" anchor="bottom" id="Problems" order="8" sideWeight="0.60796916" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="SOQL Query" order="7" weight="0.33604336" />
       <window_info anchor="bottom" id="Log Viewer" order="7" sideWeight="0.6510283" weight="0.4200542" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5022831" side_tool="true" weight="0.32197943" />
@@ -2919,6 +3080,40 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Log Viewer" order="7" sideWeight="0.6510283" weight="0.4200542" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5022831" side_tool="true" weight="0.32197943" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993573" weight="0.3292683" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.39203084" side_tool="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="11" sideWeight="0.6510283" visible="true" weight="0.4322493" />
+      <window_info anchor="bottom" id="Problems" order="15" sideWeight="0.60796916" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32969153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.35796916" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SOQL Query" order="14" weight="0.69376695" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.5022831" side_tool="true" weight="0.32197943" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -2927,100 +3122,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classes/soql.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/TemplateTask.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/UseTemplatePage.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/TemplateComponentController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ExceptionTask.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/soql.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/TemplateTask.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/UseTemplatePage.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/TemplateComponentController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ExceptionTask.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/soql.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/TemplateTask.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/UseTemplatePage.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/TemplateComponentController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ExceptionTask.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/soql.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/TemplateTask.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/UseTemplatePage.page">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/TemplateComponentController.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -3085,13 +3186,6 @@
     <entry file="file://$PROJECT_DIR$/src/pages/UseTemplatePage.page">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Rectangle.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/learnDML.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -3145,20 +3239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/MyStringProcessor.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/StringProcessor.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/PageForRedTwo.page">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3180,13 +3260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ActionTask.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="69" column="23" selection-end-line="147" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/PageForRedThree.page">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3194,17 +3267,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/StringProcessor.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/MyStringProcessor.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/SecondAsyncTask.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/AsyncTask.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/SheduleTask.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/SecondSheduleTask.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/BatchTask.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/StandartContTaskOne.page">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/StandartContTaskTwo.page">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/CustomContTaskOne.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/CustomContTaskOne.page">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/CustomContTaskTwo.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/CustomContTaskTwo.page">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Rectangle.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/ActionTask.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ActionTask.page">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="109" column="44" selection-end-line="219" selection-end-column="12" />
+        <state relative-caret-position="-1809">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="78" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/SOQLbuilder.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        <state relative-caret-position="232">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/SortPosition.trigger">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/SortPositionTriggerHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskApp/LightningTaskApp.app">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponent.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="92" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/LightningTaskComponent/LightningTaskComponentHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/AccountController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
