@@ -1,23 +1,23 @@
 <aura:component controller="AccountController">
 
-
-
     <aura:attribute name="mydata" type="Object"/>
     <aura:attribute name="mycolumns" type="List"/>
+    <aura:attribute name="myContact" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="forSearch" type="String"/>
+    <aura:attribute name="myId" type="String"/>
+    <aura:attribute name="myNumber" type="integer" default=""/>
     <aura:handler name="init" value="{! this }" action="{! c.init }"/>
-
-
 
     <article class="slds-card">
         <div class="slds-card__header slds-grid">
             <header class="slds-media slds-media_center slds-has-flexi-truncate">
                 <div class="slds-media__figure">
-<span class="slds-icon_container slds-icon-standard-account" title="account">
-
-    <lightning:icon iconName="standard:account" size="large"/>
-<span class="slds-assistive-text">account</span>
-</span>
+                    <span class="slds-icon_container slds-icon-standard-account" title="account">
+                        <lightning:icon iconName="standard:account" size="large"/><span class="slds-assistive-text">account</span>
+                    </span>
                 </div>
+
                 <div class="slds-media__body">
                     <h2 class="slds-card__header-title">
                         <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -25,6 +25,7 @@
                         </a>
                     </h2>
                 </div>
+
                 <div class="slds-no-flex">
                     <lightning:button variant="brand" label="Set Data" onclick="{! c.setData }" />
                     <lightning:button variant="brand" label="Clear" onclick="{! c.deleteData }" />
@@ -32,11 +33,67 @@
 
             </header>
         </div>
-        <div class="slds-card__body slds-card__body_inner">Anything can go in the Card Body</div>
+
+        <div class="inputName">
+            <lightning:input name="input" label="Select name" value="{!v.forSearch}"/>
+            <br/>
+            <lightning:button variant="brand" label="Search by name" onclick="{! c.searchObject }"/>
+        </div>
+
         <footer class="slds-card__footer">
             <lightning:datatable data="{!v.mydata}"
                                  columns="{!v.mycolumns}"
                                  keyField="Id"
+                                 hideCheckboxColumn="true"/>
+        </footer>
+    </article>
+
+    <article class="slds-card slds-p-bottom_medium">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <span class="slds-icon_container slds-icon-standard-account" title="Contact">
+                        <lightning:icon iconName="custom:custom10" size="large"/>
+                    <span class="slds-assistive-text">My Object</span>
+                        </span>
+                </div>
+
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Contacts">
+                            <span class="slds-text-heading_small">My Object</span>
+                        </a>
+                    </h2>
+                </div>
+
+                <div class="slds-no-flex">
+                    <lightning:button variant="brand" label="Set Data" onclick="{! c.setContData }" />
+                    <lightning:button variant="brand" label="Clear" onclick="{! c.deleteContData }" />
+                </div>
+
+            </header>
+        </div>
+
+        <div class="inputNumber">
+            <ui:inputNumber label="Enter a number: " value="{!v.myNumber}" /> <br/>
+        </div>
+        <br/>
+        <div class="inputButton">
+            <lightning:button variant="brand" label="Show contacts" onclick="{! c.showNumberOfContacts }" />
+        </div>
+
+        <div class="inputId">
+            <lightning:input name="input" label="Enter an Id: " value="{!v.myId}" /> <br/>
+        </div>
+
+        <div class="inputButton">
+            <lightning:button variant="brand" label="Show contacts by Id" onclick="{! c.showContactWithId }" />
+        </div>
+
+        <footer class="slds-card__footer">
+            <lightning:datatable data="{!v.myContact}"
+                                 columns="{!v.columns}"
+                                 keyField="Name"
                                  hideCheckboxColumn="true"/>
         </footer>
     </article>

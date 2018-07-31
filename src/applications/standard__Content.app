@@ -10,4 +10,5 @@
     <tab>Parent__c</tab>
     <tab>Crow__c</tab>
     <tab>Folder__c</tab>
+    <tab>Media__c</tab>
 </CustomApplication>

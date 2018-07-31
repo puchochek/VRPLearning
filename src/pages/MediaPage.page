@@ -1,0 +1,19 @@
+<!--
+ - Created by User on 31.07.2018.
+ -->
+
+<apex:page id="MediaPage" controller="MediaPage">
+    <apex:form >
+        <apex:pageBlock title="Input data" mode="edit">
+            <span>Media Name:</span><br/>
+            <apex:inputField id="mediaName" value="{!media.Name}" required="false"/><br/>
+        <span>Media URL:</span><br/>
+        <apex:inputField id="mediaURL" value="{!media.URL__c}" required="false"/><br/>
+        <span>Media type:</span><br/>
+        <apex:inputField id="mediaType" value="{!media.Type__c}"/><br/>
+        <span>Contact:</span><br/>
+        <apex:inputField id="medialookup" value="{!media.Contact__c}"/><br/>
+        <apex:commandButton action="{!saveMedia}" value="Save"/>
+    </apex:pageBlock>
+        </apex:form>
+</apex:page>

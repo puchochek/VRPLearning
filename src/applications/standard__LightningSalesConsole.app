@@ -20,6 +20,7 @@
     <tab>Parent__c</tab>
     <tab>Crow__c</tab>
     <tab>Folder__c</tab>
+    <tab>Media__c</tab>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
 </CustomApplication>

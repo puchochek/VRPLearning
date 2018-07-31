@@ -1,0 +1,7 @@
+<!--
+ - Created by User on 31.07.2018.
+ -->
+
+<apex:page id="MediaContactPage" controller="MediaContactPage">
+    
+</apex:page>

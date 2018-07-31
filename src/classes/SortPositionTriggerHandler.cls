@@ -13,7 +13,9 @@ public with sharing class SortPositionTriggerHandler {
                 WHERE Id != :endPosition[0].Id
                 ORDER BY Position__c
                 ];
-
+        if (endPosition[0].Position__c > (folders.size() + 1)) {
+            endPosition[0].Position__c = (folders.size() + 1);
+        }
         Integer countPos = 1;
         for (Folder__c foldersForSort : folders) {
             System.debug(countPos);
@@ -34,4 +36,27 @@ public with sharing class SortPositionTriggerHandler {
         }
         update folders;
 	}
+    public static void deleteFolder(List<Folder__c> endPosition) {
+        List<Folder__c> folders = [
+                SELECT Name, Id, Position__c
+                FROM Folder__c
+                WHERE Id != :endPosition[0].Id
+                ORDER BY Position__c
+        ];
+        Integer countPos = 1;
+        for (Folder__c foldersAfterDelete : folders) {
+            if(endPosition[0].Position__c > foldersAfterDelete.Position__c) {
+                System.debug('if');
+                countPos++;
+                foldersAfterDelete.Position__c = countPos;
+                System.debug(foldersAfterDelete.Position__c);
+            } else {
+                System.debug('not if');
+                foldersAfterDelete.Position__c = countPos;
+                countPos++;
+                System.debug(foldersAfterDelete.Position__c);
+            }
+        }
+        update folders;
+    }
 }
