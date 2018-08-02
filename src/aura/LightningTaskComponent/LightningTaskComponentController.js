@@ -38,7 +38,7 @@
         var selectedName = component.get("v.forSearch");
 
         if (!selectedName) {
-            alert('Enter a value');
+            alert('Enter correct value');
         }
         helper.searchObjectByName(component, selectedName);
     },
@@ -47,7 +47,7 @@
         var contNumber = component.get("v.myNumber");
         console.log('showNumberOfContacts works');
         if (!contNumber) {
-            alert('Enter a value');
+            alert('Enter correct value');
         }
         helper.searchNumberOfContacts(component, contNumber);
     },
@@ -55,9 +55,24 @@
         var inputId = component.get("v.myId");
         console.log('Controller Id works');
         if (!inputId) {
-            alert('Enter a value');
+            alert('Enter correct value');
         }
         helper.getContactById(component, JSON.stringify(inputId));
-
+    },
+    selectChangeOne : function(component, event, helper) {
+          var changeElement = component.find("Toggle1");
+          $A.util.toggleClass(changeElement, "slds-hide");
+    },
+    selectChangeTwo : function(component, event, helper) {
+          var changeElement = component.find("Toggle2");
+          $A.util.toggleClass(changeElement, "slds-hide");
+    },
+    selectChangeThree : function(component, event, helper) {
+          var changeElement = component.find("Toggle3");
+          $A.util.toggleClass(changeElement, "slds-hide");
+    },
+    selectChangeFour : function(component, event, helper) {
+          var changeElement = component.find("Toggle4");
+          $A.util.toggleClass(changeElement, "slds-hide");
     }
 })

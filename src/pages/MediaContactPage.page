@@ -1,7 +1,17 @@
-<!--
- - Created by User on 31.07.2018.
- -->
-
 <apex:page id="MediaContactPage" controller="MediaContactPage">
-    
+    <apex:form >
+        <apex:pageBlock title="Contact">
+            <!--<apex:selectList value="{!options}" size="1">
+                <apex:selectOptions value="{!options}" />-->
+                <!--<apex:actionSupport event="onchange" reRender="relatedMediaBlock" />-->
+            <!--</apex:selectList><br/><br/>-->
+                111 "{!options}"
+            <b>Related Media</b>
+            <apex:pageblockTable title="Media" value="{!mediaList}" var="sc" id="relatedMediaBlock">
+                <!--<apex:column value="{!sc.name}"/>
+                <apex:column value="{!sc.type}"/>
+                <apex:column value="{!sc.url}"/>-->
+            </apex:pageblockTable>
+        </apex:pageBlock>
+    </apex:form>
 </apex:page>

@@ -1,21 +1,15 @@
 /**
  * Created by Lena on 31.07.18.
  */
-.THIS .inputNumber{
-    padding-left: 30px;
-
-}
-.THIS .inputButton{
-    padding-left: 130px;
-
+.THIS .myClass{
+   width: 300px;
+   padding: 25px;
+   box-sizing: border-box;
 }
 
-.THIS .inputName{
-    padding-left: 30px;
-
-}
-
-.THIS .inputId{
-    padding-left: 30px;
-
+.THIS .toggleClass{
+   width: 300px;
+   padding: 40px;
+   box-sizing: border-box;
+   ailgn: center;
 }

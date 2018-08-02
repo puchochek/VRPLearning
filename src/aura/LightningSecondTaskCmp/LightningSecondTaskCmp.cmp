@@ -32,7 +32,7 @@
         <div class="inputButton">
             <button class="slds-button slds-button_brand">Show {!v.myNumber} contacts </button>
         </div>
-
+        
         <footer class="slds-card__footer">
         <lightning:datatable data="{!v.myContact}"
                      columns="{!v.columns}"

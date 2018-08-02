@@ -1,0 +1,11 @@
+
+    <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" controller="NBRBcur" >
+        <aura:attribute name="date" type="Date" access="GLOBAL"/>
+        <aura:attribute name="myCurrencey" type="String" access="GLOBAL"/>
+        <aura:handler name="change" value="{!v.date}" action="{!c.doChange}"/>
+
+        <ui:inputDate aura:id="dateValue" value = "{!v.date}" label="Test inputDate" displayDatePicker="true" />
+        <ui:outputText value="{!v.myCurrencey}"/>
+
+
+    </aura:component>

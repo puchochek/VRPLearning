@@ -26,16 +26,16 @@ public with sharing class AccountController {
     }
 
     @AuraEnabled
-    public static List<Account> getObjByName(String nameToSearch) {
+    public static List<Contact> getObjByName(String nameToSearch) {
         String nameString = '%' + nameToSearch + '%';
-        List<Account> accounts = [
-                SELECT Name, Site
-                FROM Account
+        List<Contact> contacts = [
+                SELECT Name, Email, Birthdate
+                FROM Contact
                 WHERE Name LIKE :nameString
         ];
         System.debug('Apex works');
-        System.debug(accounts);
-        return accounts;
+        System.debug(contacts);
+        return contacts;
     }
 
 
