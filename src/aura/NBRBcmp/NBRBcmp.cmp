@@ -1,11 +1,66 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="NBRBcur" >
+    <aura:attribute name="date" type="Date"/>
+    <aura:attribute name="inputValue" type="Integer"/>
+    <aura:attribute name="countRate" type="Integer"/>
+    <aura:attribute name="myCurrencey" type="Object[]"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="options" type="List"/>
+    <aura:attribute name="selectedOptionLabel" type="String"/>
+    <aura:attribute name="selectedOptionValue" type="String"/>
+    <aura:attribute name="selectedSecondOptionValue" type="String"/>
+    <aura:attribute name="selectedSecondOptionLabel" type="String"/>
 
-    <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" controller="NBRBcur" >
-        <aura:attribute name="date" type="Date" access="GLOBAL"/>
-        <aura:attribute name="myCurrencey" type="String" access="GLOBAL"/>
-        <aura:handler name="change" value="{!v.date}" action="{!c.doChange}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler name="change" value="{!v.date}" action="{!c.onDateChange}"/>
 
-        <ui:inputDate aura:id="dateValue" value = "{!v.date}" label="Test inputDate" displayDatePicker="true" />
-        <ui:outputText value="{!v.myCurrencey}"/>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid slds-p-left_large">
+            <ui:inputDate aura:id="dateValue" value = "{!v.date}" label="Test inputDate" displayDatePicker="true" />
+            <ui:outputText aura:id="curValue" value="{!v.myCurrencey}"/>
+        </div>
+        <br/>
+
+        <div class="slds-card__header slds-grid slds-p-left_large">
+            <span></span>
+            <ui:inputNumber aura:id="numberValue" value = "{!v.inputValue}" label="Enter the number"  />
+            <!--<input value="{!v.inputValue}" type="number" id="theTextInput" min="0"/>-->
+            <br/>
+            <ui:outputNumber value="{!v.countRate}"/> <!--Use it for convert BNR-->
+        </div>
+        <br/>
+
+        <div id="gee" class="slds slds-scrollable--x slds-p-left_large">
+            <ui:inputSelect aura:id="selectopt" class="slds-select" label="{!v.selectedOptionLabel}" value="{!v.selectedOptionValue}">
+                <aura:iteration items="{!v.options}" var="opt">
+                    {!v.options}
+                    <ui:inputSelectOption text="{!opt.label}" label="{!opt.label}" value="{!opt.value}"/>
+                </aura:iteration>
+            </ui:inputSelect>
+        </div>
+        <br/>
+        <div id="gee" class="slds slds-scrollable--x slds-p-left_large">
+            <ui:inputSelect aura:id="selectopt" class="slds-select" label="{!v.selectedSecondOptionLabel}" value="{!v.selectedSecondOptionValue}">
+                <aura:iteration items="{!v.options}" var="opt">
+                {!v.options}
+                    <ui:inputSelectOption text="{!opt.label}" label="{!opt.label}" value="{!opt.value}"/>
+                </aura:iteration>
+            </ui:inputSelect>
+        </div>
+        <br/>
+        <span>From {!v.selectedOptionValue} to BLR</span>
+        <br/>
+        <lightning:button variant="brand" label="Submit" onclick="{!c.toBLR}" />
+        <br/>
+        <span>From {!v.selectedOptionValue} to {!v.selectedSecondOptionValue}</span>
+        <br/>
+        <lightning:button variant="brand" label="Submit" onclick="{!c.toSelectedCur}" />
+        <br/>
+
+        <lightning:datatable data="{!v.myCurrencey}"
+                             columns="{!v.columns}"
+                             keyField="Id"
+                             hideCheckboxColumn="true"/>
 
 
-    </aura:component>
+    </article>
+</aura:component>
