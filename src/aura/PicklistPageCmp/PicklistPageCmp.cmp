@@ -1,0 +1,15 @@
+<aura:component >
+	<aura:attribute name="selectContcatLabel" type="String"/>
+	<aura:attribute name="selectContacValue" type="String"/>
+	<aura:attribute name="myContacts" type="List"/>
+//
+    <!--<aura:handler name="init" value="{!this}" action="{!c.init}"/>-->
+
+    <div id="myId" class="slds slds-scrollable--x slds-p-left_large">
+        <ui:inputSelect aura:id="selectcont" class="slds-select" label="{!v.selectContcatLabel}" value="{!v.selectContacValue}">
+            <aura:iteration items="{!v.myContacts}" var="cont">
+                <ui:inputSelectOption text="{!cont.label}" label="{!cont.label}" value="{!cont.value}"/>
+            </aura:iteration>
+        </ui:inputSelect>
+    </div>
+</aura:component>

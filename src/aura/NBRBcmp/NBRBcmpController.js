@@ -25,6 +25,9 @@
     toBLR : function (component, event, helper) {
         console.log('Button works');
         var selectedValue = component.get("v.selectedOptionValue");
+                if (!selectedValue) {
+                    alert('Select a currency');
+                }
         var selectedNumber = component.get("v.inputValue");
         var totalValue = component.get("v.myCurrencey");
         var getCurRate;
@@ -59,6 +62,15 @@
         var resultValue = (selectedNumber * currencToCountFirst)/currencToCountSecond;
         console.log(resultValue);
         component.set('v.countRate', resultValue);
+    },
+
+    clearData : function (component, event, helper) {
+        component.set('v.inputValue', '');
+        component.set('v.selectedOptionValue', '--- None ---');
+        component.set('v.selectedSecondOptionValue', '--- None ---');
+        component.set('v.date', '');
+        component.set('v.myCurrencey', []);
+        component.set('v.countRate', '');
     }
 
 })

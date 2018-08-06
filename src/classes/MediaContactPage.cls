@@ -17,24 +17,14 @@ public with sharing class MediaContactPage {
             }
         System.debug(options);
     }
-
-    //public PageReference showMedia(){
-        //mediaList=[select name, type, url from Media__c where Contact__c=: selectedContId];
-        //return null;
-    //}
-
-    public void findLabel() {
-        for (SelectOption so : options) {
-            if (so.getValue() == myValue) {
-                myValue = so.getLabel();
-                System.debug(myValue);
-            }
-        }
-    }
-
+//
     public PageReference showMedia(){
-        //mediaList=[select name, type, url from Media__c where Contact__c=: selectedContId];
+        mediaList = [
+                SELECT name, type__c, url__c
+                FROM Media__c];
         return null;
     }
+
+
 
 }

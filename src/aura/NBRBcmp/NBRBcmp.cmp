@@ -15,24 +15,31 @@
 
     <article class="slds-card">
         <div class="slds-card__header slds-grid slds-p-left_large">
-            <ui:inputDate aura:id="dateValue" value = "{!v.date}" label="Test inputDate" displayDatePicker="true" />
+            <ui:inputDate aura:id="dateValue" value = "{!v.date}" label="Select date" displayDatePicker="true" />
             <ui:outputText aura:id="curValue" value="{!v.myCurrencey}"/>
         </div>
         <br/>
 
         <div class="slds-card__header slds-grid slds-p-left_large">
             <span></span>
-            <ui:inputNumber aura:id="numberValue" value = "{!v.inputValue}" label="Enter the number"  />
+            <ui:inputNumber aura:id="numberValue" value = "{!v.inputValue}" label="Enter the number     "  />
             <!--<input value="{!v.inputValue}" type="number" id="theTextInput" min="0"/>-->
             <br/>
-            <ui:outputNumber value="{!v.countRate}"/> <!--Use it for convert BNR-->
+        </div>
+        <div id="smyh" class="slds-p-left_large">
+            <span>The value is: </span>
+        <ui:outputNumber value="{!v.countRate}"/> <!--Use it for convert BNR-->
         </div>
         <br/>
-
+        <div id="myBut" class="slds-p-left_large">
+            <span>Reset parameters </span>
+            <br/>
+            <lightning:button variant="brand" label="Clear" onclick="{!c.clearData}" />
+        </div>
+        <br/>
         <div id="gee" class="slds slds-scrollable--x slds-p-left_large">
             <ui:inputSelect aura:id="selectopt" class="slds-select" label="{!v.selectedOptionLabel}" value="{!v.selectedOptionValue}">
                 <aura:iteration items="{!v.options}" var="opt">
-                    {!v.options}
                     <ui:inputSelectOption text="{!opt.label}" label="{!opt.label}" value="{!opt.value}"/>
                 </aura:iteration>
             </ui:inputSelect>
@@ -41,21 +48,21 @@
         <div id="gee" class="slds slds-scrollable--x slds-p-left_large">
             <ui:inputSelect aura:id="selectopt" class="slds-select" label="{!v.selectedSecondOptionLabel}" value="{!v.selectedSecondOptionValue}">
                 <aura:iteration items="{!v.options}" var="opt">
-                {!v.options}
                     <ui:inputSelectOption text="{!opt.label}" label="{!opt.label}" value="{!opt.value}"/>
                 </aura:iteration>
             </ui:inputSelect>
         </div>
         <br/>
-        <span>From {!v.selectedOptionValue} to BLR</span>
+        <div id="myId" class="slds-p-left_large">
+            <span>From {!v.selectedOptionValue} to BLR</span>
         <br/>
         <lightning:button variant="brand" label="Submit" onclick="{!c.toBLR}" />
         <br/>
-        <span>From {!v.selectedOptionValue} to {!v.selectedSecondOptionValue}</span>
+            <span>From {!v.selectedOptionValue} to {!v.selectedSecondOptionValue}</span>
         <br/>
         <lightning:button variant="brand" label="Submit" onclick="{!c.toSelectedCur}" />
         <br/>
-
+        </div>
         <lightning:datatable data="{!v.myCurrencey}"
                              columns="{!v.columns}"
                              keyField="Id"
