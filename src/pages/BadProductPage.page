@@ -1,31 +1,60 @@
 <apex:page id="BadProductPage" controller="BadProductPage">
 
-<apex:form >
-    <apex:actionFunction name="selectRow"
-                         action="{!selectRow}"
-                         rerender="out">
-        <apex:param value="" name="P1"/>
-        <apex:param value="" name="P2"/>
-        <apex:param value="" name="P3"/>
-    </apex:actionFunction>
-</apex:form>
+<!--<apex:form >-->
+    <!--<apex:actionFunction name="selectRow"-->
+                         <!--action="{!selectRow}"-->
+                         <!--rerender="out">-->
+        <!--<apex:param value="" name="P1"/>-->
+        <!--<apex:param value="" name="P2"/>-->
+        <!--<apex:param value="" name="P3"/>-->
+    <!--</apex:actionFunction>-->
+<!--</apex:form>-->
 
-<script>
-    function readCell(P1, P2, P3){
-        selectRow(P1, P2, P3);
-    }
-</script>
+<!--<script>-->
+    <!--function readCell(P1, P2, P3){-->
+        <!--selectRow(P1, P2, P3);-->
+    <!--}-->
+<!--</script>-->
 
-<apex:form>
-    <apex:pageBlock >
-        <apex:pageBlockTable title="BadProduct" value="{!BadProduct}" var="bp">
-            <apex:column value="{!bp.Bad_Substances__c}" onclick="readCell('{!bp.id}', '{!bp.Bad_Substances__c}', 'field1')"/>
-            <!--<apex:column value="{!bp.Bad_Substances__c}" onclick="console.log(111, '{!bp.id}', '{!bp.Bad_Substances__c}', 'field1')"/>-->
-            <apex:column value="{!bp.Worst_Substances__c}" onclick="readCell('{!bp.id}', '{!bp.Worst_Substances__c}', 'field2')"/>
-            <apex:outputField value="{!bp.Bad_Substances__c}"/>
-        </apex:pageBlockTable>
-    </apex:pageBlock>
-</apex:form>
+<!--<apex:form >-->
+    <!--<apex:pageBlock >-->
+        <!--<apex:pageBlockTable title="BadProduct" value="{!BadProduct}" var="bp">-->
+            <!--<apex:column value="{!bp.Bad_Substances__c}" onclick="readCell('{!bp.id}', '{!bp.Bad_Substances__c}', 'field1')"/>-->
+            <!--&lt;!&ndash;<apex:column value="{!bp.Bad_Substances__c}" onclick="console.log(111, '{!bp.id}', '{!bp.Bad_Substances__c}', 'field1')"/>&ndash;&gt;-->
+            <!--<apex:column value="{!bp.Worst_Substances__c}" onclick="readCell('{!bp.id}', '{!bp.Worst_Substances__c}', 'field2')"/>-->
+            <!--<apex:outputField value="{!bp.Bad_Substances__c}"/>-->
+        <!--</apex:pageBlockTable>-->
+    <!--</apex:pageBlock>-->
+<!--</apex:form>-->
+//
+    <apex:form >
+        <apex:actionFunction name="selectRow"
+                             action="{!selectRow}"
+                             rerender="tierId">
+            <apex:param value="" name="P1"/>
+        </apex:actionFunction>
+    </apex:form>
 
+    <script>
+        function readCell(P1){
+            selectRow(P1);
+        }
+    </script>
+
+
+    <apex:form >
+
+        <apex:pageBlock >
+            <apex:pageBlockTable title="BadProduct" value="{!BadProduct}" var="bp">
+                <apex:column value="{!bp.Name}" onclick="readCell('{!bp.Name}')"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection Title="ShowMessage" >
+                <!--<apex:outputText value="{!showMessage}"/>-->
+                <apex:outputText id="tierId" value="{!myMess}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
 
 </apex:page>
