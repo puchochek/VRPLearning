@@ -1,0 +1,12 @@
+<aura:component description="EventTaskSecCmp">
+
+    <aura:registerEvent name="firstEvent" type="c:EventTaskEvent"/>
+    <div id="firstEventButton" class="slds-p-left_large slds-p-top_x-large">
+        <p>  Display message</p>
+    <br/>
+        <lightning:button
+            label="FireFirstEvent"
+            onclick="{!c.fireEventMessage}"/>
+    </div>
+    <br/>
+</aura:component>

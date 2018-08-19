@@ -6,6 +6,7 @@
         <IlluminatedCloudConnection>
           <option name="connectionName" value="Salesforce" />
           <option name="defaultModuleName" value="VisualpPageProject" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/Salesforce/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>

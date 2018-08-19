@@ -1,0 +1,9 @@
+<design:component >
+    <flexipage:template >
+        <flexipage:region name="firstColumn" defaultWidth="Small"/>
+        <flexipage:region name="secondColumn" defaultWidth="Small"/>
+        <flexipage:region name="thirdColumn" defaultWidth="Small"/>
+        <flexipage:region name="fourthColumn" defaultWidth="Small"/>
+    </flexipage:template>
+
+</design:component>

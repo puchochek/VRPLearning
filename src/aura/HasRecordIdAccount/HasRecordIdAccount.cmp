@@ -1,0 +1,14 @@
+<aura:component controller="HasRecordIdAccount" description="HasRecordIdAccount" implements="flexipage:availableForRecordHome,flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable" access="public">
+    <aura:attribute name="mydata" type="Object"/>
+    <aura:attribute name="mycolumns" type="List"/>
+
+    <p>{!v.recordId}</p>
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+
+    <lightning:datatable data="{!v.mydata}"
+                         columns="{!v.mycolumns}"
+                         keyField="Id"
+                         hideCheckboxColumn="true"/>
+
+</aura:component>

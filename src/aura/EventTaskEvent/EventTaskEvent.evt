@@ -1,0 +1,5 @@
+<aura:event type="COMPONENT" description="EventTaskEvent">
+
+    <aura:attribute name="message" type="String"/>
+    
+</aura:event>

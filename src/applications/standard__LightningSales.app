@@ -6,7 +6,6 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tab>standard-home</tab>
-    <tab>standard-WaveHome</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Task</tab>
@@ -27,5 +26,9 @@
     <tab>Crow__c</tab>
     <tab>Folder__c</tab>
     <tab>Media__c</tab>
+    <tab>Product__c</tab>
+    <tab>Guest__c</tab>
+    <tab>Password__c</tab>
+    <tab>Password_Keys__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

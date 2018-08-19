@@ -1,0 +1,20 @@
+<aura:component controller="RescentContactsApp"
+                description="RescentContactsApp"
+                implements="flexipage:availableForRecordHome,flexipage:availableForAllPageTypes,force:appHostable"
+                access="public">
+
+        <aura:attribute name="mydata" type="Object"/>
+        <aura:attribute name="mycolumns" type="List"/>
+        <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+
+        <div class="slds-page-header">
+            <lightning:icon iconName="custom:custom10" size="large"/>
+            <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Contacts">This week Contacts</h1>
+        </div>
+
+        <lightning:datatable data="{!v.mydata}"
+                             columns="{!v.mycolumns}"
+                             keyField="Id"
+                             hideCheckboxColumn="true"/>
+
+</aura:component>

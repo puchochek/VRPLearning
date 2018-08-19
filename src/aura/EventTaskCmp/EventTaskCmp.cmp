@@ -1,0 +1,35 @@
+<aura:component description="EventTaskCmp" controller="ContactEventController">
+
+	<aura:attribute name="eventMessage" type="String"/>
+	<aura:attribute name="initMessage" type="String"/>
+    <aura:attribute name="rerenderMessage" type="String"/>
+    <aura:attribute name="afterMessage" type="String"/>
+    <aura:attribute name="mydata" type="Object"/>
+    <aura:attribute name="mycolumns" type="List"/>
+    <aura:handler event="aura:waiting" action="{!c.waiting}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.doneWaiting}"/>
+    <aura:attribute name="checkBoxValue" type="Boolean" />
+
+	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+	<aura:handler name="firstEvent" event="c:EventTaskEvent" action="{!c.showConsoleMessage}"/>
+
+	<c:EventTaskSecCmp/>
+    <div class="slds-p-left_medium">
+	<p>{!v.eventMessage}</p>
+        <br/>
+    <p>{!v.rerenderMessage}</p>
+        <br/>
+    <p>{!v.afterMessage}</p>
+	</div>
+
+        <span id="Accspinner" style="display:none"><ui:spinner /></span>
+
+	<br/>
+
+    <lightning:datatable data="{!v.mydata}"
+                         columns="{!v.mycolumns}"
+                         keyField="Id"
+                         hideCheckboxColumn="true"/>
+
+
+</aura:component>

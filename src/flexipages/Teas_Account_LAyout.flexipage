@@ -9,15 +9,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>entityNames</name>
-                <value>[&quot;Account&quot;]</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>maxRecords</name>
-                <value>3</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:recentItems</componentName>
+            <componentName>HasRecordIdAccount</componentName>
         </componentInstances>
         <name>rightsidebar</name>
         <type>Region</type>
@@ -25,10 +17,14 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>relatedListComponentOverride</name>
-                <value>NONE</value>
+                <name>collapsed</name>
+                <value>false</value>
             </componentInstanceProperties>
-            <componentName>force:relatedListContainer</componentName>
+            <componentInstanceProperties>
+                <name>numVisibleActions</name>
+                <value>3</value>
+            </componentInstanceProperties>
+            <componentName>force:highlightsPanel</componentName>
         </componentInstances>
         <name>leftsidebar</name>
         <type>Region</type>

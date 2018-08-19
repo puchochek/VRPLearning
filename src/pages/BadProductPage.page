@@ -51,7 +51,6 @@
         </apex:pageBlock>
         <apex:pageBlock >
             <apex:pageBlockSection Title="ShowMessage" >
-                <!--<apex:outputText value="{!showMessage}"/>-->
                 <apex:outputText id="tierId" value="{!myMess}"/>
             </apex:pageBlockSection>
         </apex:pageBlock>

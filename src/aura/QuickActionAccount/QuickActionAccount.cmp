@@ -1,0 +1,9 @@
+<aura:component controller="QuickActionAccount" description="QuickActionAccount" implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:lightningQuickAction" access="global">
+    <aura:attribute name="relatedContactsNumber" type="Integer"/>
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <div id="smyh" class="slds-p-left_large">
+        <span>Total number of related contacts is: </span>
+        <ui:outputNumber value="{!v.relatedContactsNumber}"/>
+    </div>
+
+</aura:component>

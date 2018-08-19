@@ -178,6 +178,10 @@
     <tab>Crow__c</tab>
     <tab>Folder__c</tab>
     <tab>Media__c</tab>
+    <tab>Product__c</tab>
+    <tab>Guest__c</tab>
+    <tab>Password__c</tab>
+    <tab>Password_Keys__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>Child__c</tab>
@@ -189,10 +193,22 @@
             <tab>Folder__c</tab>
         </mapping>
         <mapping>
+            <tab>Guest__c</tab>
+        </mapping>
+        <mapping>
             <tab>Media__c</tab>
         </mapping>
         <mapping>
             <tab>Parent__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Password_Keys__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Password__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Product__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>

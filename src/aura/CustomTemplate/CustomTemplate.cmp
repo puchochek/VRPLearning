@@ -1,0 +1,32 @@
+<aura:component description="CustomTemplate" implements="lightning:appHomeTemplate" access="global">
+    <aura:attribute name="firstColumn" type="Aura.Component[]"/>
+    <aura:attribute name="secondColumn" type="Aura.Component[]"/>
+    <aura:attribute name="thirdColumn" type="Aura.Component[]"/>
+    <aura:attribute name="fourthColumn" type="Aura.Component[]"/>
+
+    <div>
+        <lightning:layout horizontalAlign="spread">
+            <lightning:layoutItem flexibility="grow" size="{! $Browser.isDesktop ? '2' : '6' }"
+                                  class="slds-m-left_small">
+                <div>{!v.firstColumn}</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="slds-col" flexibility="grow" size="{! $Browser.isDesktop ? '3' : '6' }"
+                                  class="slds-m-left_small">
+
+                <div>{!v.secondColumn}</div>
+
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="slds-col" flexibility="grow" size="{! $Browser.isDesktop ? '3' : '6' }"
+                                  class="slds-m-left_small">
+
+                <div>{!v.thirdColumn}</div>
+
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="slds-col" flexibility="grow" size="{! $Browser.isDesktop ? '3' : '6' }"
+                                  class="slds-m-left_small">
+                <div>{!v.fourthColumn}</div>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+
+</aura:component>
