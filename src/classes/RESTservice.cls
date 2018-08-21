@@ -49,8 +49,10 @@ global with sharing class RESTservice {
 
         RestRequest req = RestContext.request;
         String secretKey = req.headers.get('Key');
+        System.debug(secretKey);
 
         if (!RESTservice.checkKey(secretKey)) {
+            System.debug(RESTservice.checkKey(secretKey));
             return 'Wrong key';
         }
 
@@ -186,7 +188,7 @@ global with sharing class RESTservice {
                 FROM Password_Keys__c
                 WHERE Key__c = :key
         ];
-        System.debug(secretKey);
+        System.debug('111' + secretKey);
         if (secretKey.isEmpty()) {
             return false;
         }

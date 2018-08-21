@@ -21,6 +21,16 @@ public class RESTserviceTest {
         }
         insert contactsForTest;
         insert guestsForTest;
+        
+        List<Password_Keys__c> secretKey = new List<Password_Keys__c>();
+        Password_Keys__c randomKey = new Password_Keys__c(Key__c = 'd3d4d');
+        secretKey.add(randomKey);
+        insert secretKey;
+        
+        List<Password__c> secretWords = new List<Password__c>();
+        Password__c randomWord = new Password__c(Secret_Word__c = 'FirstWord');
+        secretWords.add(randomWord);
+        insert secretWords;
 
     }
 
@@ -99,6 +109,7 @@ public class RESTserviceTest {
 
         System.assertEquals('Please, check the input.', RESTservice.getContacts());
     }
+    
     @isTest
     public static void testPutInsertGuestById(){
         List<Contact> existedContacts = [
@@ -116,7 +127,10 @@ public class RESTserviceTest {
         RestRequest req = new RestRequest();
         RestResponse res = new RestResponse();
         req.requestURI = '/test/';
-        req.httpMethod = 'GET';
+        req.addHeader('Key', 'd3d4d');
+        System.debug('test header' + req);
+
+        req.httpMethod = 'PUT';
 
         RestContext.request = req;
         RestContext.response= res;
@@ -127,8 +141,29 @@ public class RESTserviceTest {
                 FROM Guest__c
                 WHERE Contact__c = :param
         ];
+        
+        
         System.assertEquals('This guest ' + createdTestGuest +  ' is invited', resp);
     }
+    
+    @isTest
+    public static void testPutInsertGuestByIdNegative(){
+        List<String> paramList = new List<String>();
+
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/';
+        req.addHeader('Key', 'd5d4d');
+        System.debug('test header' + req);
+
+        req.httpMethod = 'PUT';
+
+        RestContext.request = req;
+        RestContext.response= res;
+ 
+        System.assertEquals('Wrong key', RESTservice.inviteGuestByName(paramList));
+    }
+
 
     @isTest
     public static void testPutInsertDuplicateGuestByName(){
@@ -146,7 +181,8 @@ public class RESTserviceTest {
         RestRequest req = new RestRequest();
         RestResponse res = new RestResponse();
         req.requestURI = '/test/';
-        req.httpMethod = 'GET';
+        req.addHeader('Key', 'd3d4d');
+        req.httpMethod = 'PUT';
         RestContext.request = req;
         RestContext.response= res;
 
@@ -157,9 +193,33 @@ public class RESTserviceTest {
         ];
         System.assertEquals('This contacts ' + duplicate + ' have duplicate values. Please, enter the Id to identificate your contact.', RESTservice.inviteGuestByName(paramList));
     }
+    
+    @isTest
+    public static void testPutInsertDuplicateGuestByNameNegative(){
+        List<String> paramList = new List<String>();
+        
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/';
+        req.addHeader('Key', 'd3d7d');
+        req.httpMethod = 'PUT';
+        RestContext.request = req;
+        RestContext.response= res;
+
+        System.assertEquals('Wrong key', RESTservice.inviteGuestByName(paramList));
+    }
 
     @isTest
     public static void testPutInsertDuplicateGuest() {
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/';
+        req.addHeader('Key', 'd3d4d');
+        System.debug('test header' + req);
+        req.httpMethod = 'PUT';
+        RestContext.request = req;
+        RestContext.response= res;
+        
         List<Contact> existedContacts = [
                 SELECT Name
                 FROM Contact
@@ -177,9 +237,32 @@ public class RESTserviceTest {
 
         System.assertEquals(guestsToInvite.size() + ' guests are invited', RESTservice.inviteGuestByName(paramList));
     }
+    
+    @isTest
+    public static void testPutInsertDuplicateGuestNegative() {
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/';
+        req.addHeader('Key', 'd3d55');
+        System.debug('test header' + req);
+        req.httpMethod = 'PUT';
+        RestContext.request = req;
+        RestContext.response= res;
+        List<String> paramList = new List<String>();
+        System.assertEquals('Wrong key', RESTservice.inviteGuestByName(paramList));
+    }
 
     @isTest
     public static void testPatch(){
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/';
+        req.addHeader('Key', 'd3d4d');
+        System.debug('test header' + req);
+        req.httpMethod = 'PUT';
+        RestContext.request = req;
+        RestContext.response= res;
+        
         List<Guest__c> uninvitedGuests = [
                 SELECT Name
                 FROM Guest__c
@@ -192,6 +275,20 @@ public class RESTserviceTest {
         }
         System.assertEquals('This Guests were updated ' + updatedList, RESTservice.updateUninvitedGuests());
     }
+    
+    @isTest
+    public static void testPatchNegative(){
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/';
+        req.addHeader('Key', 'd3d77');
+        System.debug('test header' + req);
+        req.httpMethod = 'PATCH';
+        RestContext.request = req;
+        RestContext.response= res;
+        
+        System.assertEquals('Wrong key', RESTservice.updateUninvitedGuests());
+    }
    
     @isTest
     public static void testDelete(){
@@ -200,12 +297,82 @@ public class RESTserviceTest {
         RestRequest req = new RestRequest();
         RestResponse res = new RestResponse();
         req.requestURI = '/test/' + param;
-        req.httpMethod = 'GET';
+        req.addHeader('Key', 'd3d4d');
+        req.httpMethod = 'DELETE';
 
         RestContext.request = req;
         RestContext.response= res;
         
         System.assertEquals('Guest is deleted' , RESTservice.deleteGuest());
     }
+    
+    @isTest
+    public static void testDeleteUnexistingGuest(){
+        String param = 'C-';
+        
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/' + param;
+        req.addHeader('Key', 'd3d4d');
+        req.httpMethod = 'DELETE';
 
+        RestContext.request = req;
+        RestContext.response= res;
+        
+        System.assertEquals('Oops, there is no Guest with such Name here.' , RESTservice.deleteGuest());
+    }
+    
+    @isTest
+    public static void testDeleteNegative(){
+        String param = 'C-100069';
+        
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        req.requestURI = '/test/' + param;
+        req.addHeader('Key', 'd3d55');
+        req.httpMethod = 'DELETE';
+
+        RestContext.request = req;
+        RestContext.response= res;
+        
+        System.assertEquals('Wrong key' , RESTservice.deleteGuest());
+    }
+    
+    @isTest
+    public static void testPost(){
+        String param = 'FirstWord';
+        List<Password__c> secretWords = [
+                  SELECT Secret_Word__c
+                  FROM Password__c
+        ];
+        System.debug(secretWords);
+        for(Password__c password : secretWords ) {
+            if (String.valueOf(password.Secret_Word__c) == param){
+                List<Password_Keys__c> secretKey = new List<Password_Keys__c>();
+                Password_Keys__c randomKey = new Password_Keys__c(Key__c = EncodingUtil.convertToHex(crypto.generateAesKey(128)).substring(0,5));
+                secretKey.add(randomKey);
+                insert secretKey;
+            }     
+    	}
+      System.assertEquals('Secret word is generated' , RESTservice.useSecretWord(param));  
+    }
+    
+    @isTest
+    public static void testPostNegative(){
+        String param = 'FirstSong';
+        List<Password__c> secretWords = [
+                  SELECT Secret_Word__c
+                  FROM Password__c
+        ];
+        System.debug(secretWords);
+        for(Password__c password : secretWords ) {
+            if (String.valueOf(password.Secret_Word__c) == param){
+                List<Password_Keys__c> secretKey = new List<Password_Keys__c>();
+                Password_Keys__c randomKey = new Password_Keys__c(Key__c = EncodingUtil.convertToHex(crypto.generateAesKey(128)).substring(0,5));
+                secretKey.add(randomKey);
+                insert secretKey;
+            }     
+    	}
+      System.assertEquals('The password is wrong' , RESTservice.useSecretWord(param));  
+    }
 }

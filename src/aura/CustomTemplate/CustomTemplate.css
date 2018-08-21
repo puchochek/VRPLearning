@@ -1,0 +1,4 @@
+.THIS .limitVert{
+    max-height: 70vh;
+    overflow: auto;
+}

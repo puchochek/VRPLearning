@@ -1,0 +1,31 @@
+<aura:component description="CustomEventNew" controller="CustomEvent">
+    <aura:registerEvent name="customEventEv" type="c:CustomEventEv"/>
+
+    <aura:attribute name="contacts" type="List"/>
+    <aura:attribute name="allcontacts" type="List"/>
+    <aura:attribute name="selectedContactLabel" type="String"/>
+    <aura:attribute name="selectedContactValue" type="String"/>
+    <aura:attribute name="greetings" type="String"/>
+
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+
+    <span>Select Contact Name</span>
+    <br/>
+    <div id="selectContact" class="slds slds-scrollable--x slds-p-left_large slds-p-top_large">
+        <ui:inputSelect aura:id="selectCont" class="slds-select" label="{!v.selectedContactLabel}" value="{!v.selectedContactValue}" change="{!c.selectContact}">
+            <aura:iteration items="{!v.contacts}" var="cont">
+                <ui:inputSelectOption text="{!cont.label}" label="{!cont.label}" value="{!cont.value}"/>
+            </aura:iteration>
+        </ui:inputSelect>
+        <br/>
+        <p><lightning:button
+                label="Fire"
+                onclick="{!c.fireComponentEvent}" />
+        </p>
+    </div>
+    <br/>
+    <div id="selectedContact" class="slds-p-left_large">
+        <ui:outputText aura:id="greetings" value="{!v.greetings}"/>
+    </div>
+</aura:component>

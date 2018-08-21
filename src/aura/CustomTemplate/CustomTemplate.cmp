@@ -11,19 +11,19 @@
                 <div>{!v.firstColumn}</div>
             </lightning:layoutItem>
             <lightning:layoutItem padding="slds-col" flexibility="grow" size="{! $Browser.isDesktop ? '3' : '6' }"
-                                  class="slds-m-left_small">
+                                  class="slds-m-left_small limitVert">
 
                 <div>{!v.secondColumn}</div>
 
             </lightning:layoutItem>
             <lightning:layoutItem padding="slds-col" flexibility="grow" size="{! $Browser.isDesktop ? '3' : '6' }"
-                                  class="slds-m-left_small">
+                                  class="slds-m-left_small limitVert">
 
                 <div>{!v.thirdColumn}</div>
-
+                
             </lightning:layoutItem>
             <lightning:layoutItem padding="slds-col" flexibility="grow" size="{! $Browser.isDesktop ? '3' : '6' }"
-                                  class="slds-m-left_small">
+                                  class="slds-m-left_small limitVert">
                 <div>{!v.fourthColumn}</div>
             </lightning:layoutItem>
         </lightning:layout>

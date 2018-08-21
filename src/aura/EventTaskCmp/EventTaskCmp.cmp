@@ -6,8 +6,8 @@
     <aura:attribute name="afterMessage" type="String"/>
     <aura:attribute name="mydata" type="Object"/>
     <aura:attribute name="mycolumns" type="List"/>
-    <aura:handler event="aura:waiting" action="{!c.waiting}"/>
-    <aura:handler event="aura:doneWaiting" action="{!c.doneWaiting}"/>
+    <!--<aura:handler event="aura:waiting" action="{!c.waiting}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.doneWaiting}"/>-->
     <aura:attribute name="checkBoxValue" type="Boolean" />
 
 	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
@@ -22,7 +22,7 @@
     <p>{!v.afterMessage}</p>
 	</div>
 
-        <span id="Accspinner" style="display:none"><ui:spinner /></span>
+        <!--<span id="Accspinner" style="display:none"><ui:spinner /></span>-->
 
 	<br/>
 
