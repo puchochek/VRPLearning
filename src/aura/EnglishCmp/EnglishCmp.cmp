@@ -1,0 +1,18 @@
+
+<aura:component description="EnglishCmp" access="global" controller="English">
+    <aura:attribute name="wordToTranslate" type="String"/>
+    <aura:attribute name="translation" type="String"/>
+
+
+
+        <br/>
+        <ui:inputText label="Enter some text" class="field" value="{!v.wordToTranslate}"/>
+        <br/>
+        <lightning:button variant="brand" label="Translate" onclick="{!c.translate}"/>
+        <br/>
+
+        <ui:outputText aura:id="translation" value="{!v.translation}"/>
+
+        <br/>
+
+</aura:component>

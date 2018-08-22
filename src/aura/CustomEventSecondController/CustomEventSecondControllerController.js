@@ -1,11 +1,9 @@
-
 ({
-    init: function (component, event) {
-        var customEventEv = component.getEvent("customEventEv");
-        // component.get('v.selectedContactValue');
-        console.log(444, component.get('v.selectedContactValue'));
-        customEventEv.setParams({'greetings': 'This message is shown by event'});
-        customEventEv.fire();
+    selectContactGreeting: function (component, event) {
+        console.log(444);
+        var greetingsName = event.getParam("greetingsName");
+        console.log('value on event side ', greetingsName);
+
     }
 
 })

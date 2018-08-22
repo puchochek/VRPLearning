@@ -1,7 +1,18 @@
-
-
 <aura:component description="CustomEventSecondController">
-    <c:CustomEventNew/>
-    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+        <aura:attribute name="messageFromEvent" type="String"/>
+
+        <aura:handler name="CustomEventNew" event="c:CustomEventEv" action="{!c.handleComponentEvent}"/>
+        <c:CustomEventNew />
+
+        <p>{!v.messageFromEvent}</p>
+        <p>Number of events: {!v.numEvents}</p>
 
 </aura:component>
+
+
+
+
+    <!--<aura:attribute name="greetingsName" type="String"/>-->
+    <!--<aura:handler name="customEventEv" event="c:CustomEventEv" action="{!c.selectContactGreeting}"/>-->
+    <!--<c:CustomEventNew/>-->
+    <!--<p>{!v.greetingsName}</p>-->
