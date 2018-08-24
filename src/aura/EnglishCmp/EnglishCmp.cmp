@@ -1,18 +1,24 @@
-
 <aura:component description="EnglishCmp" access="global" controller="English">
     <aura:attribute name="wordToTranslate" type="String"/>
-    <aura:attribute name="translation" type="String"/>
+    <aura:attribute name="translation" type="Object"/>
 
 
-
+    <div class="slds-align_absolute-center" style="height: 5rem;">
         <br/>
         <ui:inputText label="Enter some text" class="field" value="{!v.wordToTranslate}"/>
-        <br/>
+    </div>
+    <div class="slds-align_absolute-center" style="height: 5rem;">
         <lightning:button variant="brand" label="Translate" onclick="{!c.translate}"/>
-        <br/>
+    </div>
+        <div class="slds-align_absolute-center" style="height: 5rem;">
 
-        <ui:outputText aura:id="translation" value="{!v.translation}"/>
+    </div>
+    <aura:iteration items="{!v.translation}" var="word">
+        <ul>
+            <li>{!word}</li>
 
+        </ul>
+    </aura:iteration>
         <br/>
 
 </aura:component>

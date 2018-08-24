@@ -192,11 +192,11 @@ global with sharing class RESTservice {
         if (secretKey.isEmpty()) {
             return false;
         }
-        if (secretKey[0].CreatedDate <= System.now().addMinutes(-1)){
+        if (secretKey[0].CreatedDate <= System.now().addMinutes(-5)){
             return false;
         }
         System.debug(secretKey[0].CreatedDate);
-        System.debug(System.now().addMinutes(-1));
+        System.debug(System.now().addMinutes(-5));
         return true;
     }
 

@@ -1,0 +1,7 @@
+<aura:component description="Onliner">
+    <div class="slds-large-size--1-of-1">
+        This is a header.
+        <div class="slds-large-size--1-of-12 slds-box slds-box--x-small slds-theme_shade slds-theme_alert-texture slds-text-align--center slds-m-top--medium hideHeader">
+        </div>
+    </div>
+</aura:component>

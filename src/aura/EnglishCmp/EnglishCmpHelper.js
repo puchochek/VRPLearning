@@ -1,4 +1,3 @@
-
 ({
     translateTheWord : function (component, wordToTranslate) {
         console.log('Helper works');
@@ -10,9 +9,18 @@
             if (state === 'SUCCESS') {
                 var responseJSON = response.getReturnValue();
                 var responseObj = JSON.parse(responseJSON);
-                console.log('respObj ' + responseObj);
-                component.set('v.translation', responseJSON);
-                console.log('response ' + responseJSON);
+                //console.log('response ' + responseJSON);
+                console.log(responseObj);
+                console.log('000', responseObj.def.length);
+                var translations = [];
+                for (var i = 0; i < responseObj.def.length; i++) {
+                    //console.log('666', responseObj.def.tr[i].length);
+                    console.log('777', responseObj.def[i].tr[0].text);
+                    translations.push(responseObj.def[i].tr[0].text);
+
+                }
+                console.log('111', translations);
+                component.set('v.translation', translations);
             } else if (state === 'ERROR') {
                 var errors = response.getError();
                 console.log(errors);

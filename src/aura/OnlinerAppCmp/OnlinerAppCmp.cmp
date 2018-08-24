@@ -1,0 +1,29 @@
+<aura:component access="global">
+	<div class="slds-large-size--1-of-1">
+        <img src="{!$Resource.Onliner_Header}"/>
+    </div>
+    <div class="linkBox slds-large-size--1-of-1 slds-grid">
+        <div class=" slds-large-size--1-of-2 slds-grid">
+            <div class="link slds-large-size--2-of-6 slds-box slds-box--x-small slds-text-align--center style=text-color:black">
+                <a href="javascript:void(0);">Some text</a>
+            </div>
+            <div class="slds-large-size--2-of-6 slds-box slds-box--x-small slds-text-align--center">
+                Some text
+            </div>
+            <div class="slds-large-size--2-of-6 slds-box slds-box--x-small slds-text-align--center">
+                Some text
+            </div>
+        </div>
+        <div class="linkBox2 slds-large-size--1-of-2 slds-grid">
+            <div class="slds-large-size--2-of-6 slds-box slds-box--x-small slds-text-align--center">
+                Some text
+            </div>
+            <div class="slds-large-size--2-of-6 slds-box slds-box--x-small slds-text-align--center">
+                Some text
+            </div>
+            <div class="slds-large-size--2-of-6 slds-box slds-box--x-small slds-align--right">
+                <img src="{!$Resource.Bin}"/>
+            </div>
+        </div>
+    </div>
+</aura:component>

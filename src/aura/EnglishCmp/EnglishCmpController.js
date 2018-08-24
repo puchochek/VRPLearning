@@ -1,4 +1,3 @@
-
 ({
     translate : function (component, event, helper) {
         var wordToTranslate = component.get("v.wordToTranslate");

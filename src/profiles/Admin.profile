@@ -157,6 +157,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>EmpteyClass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>English</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EuguenTask</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -178,6 +186,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ExceptionTask</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>FreeAccount</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
