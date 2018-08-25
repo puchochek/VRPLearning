@@ -1,20 +1,32 @@
 
-.THIS.linkBox {
+.THIS.main {
+    background-color: #e3f7e7;
+}
+
+.THIS .linkBox {
     background-color: #b0e5cb;
     border: hidden;
     height: 40px;
     font-weight: bold;
-    font-size: 1.5em;
-    color: black;
-    text-decoration:none;
+    font-size: 2em;
+    color: #42603e;
 }
 
-.THIS.linkBox2 {
-    background-color: white;
-    border: hidden;
-    height: 40px;
-    font-weight: bold;
+.THIS .searchBox {
+    /*background-color: #58c96b;*/
+    height: 50px;
     font-size: 1.5em;
-    color: black;
+    color: gray();
+}
 
+.THIS .serchField {
+    margin: 10px;
+}
+
+.THIS .contentImg {
+    margin: 3px;
+}
+
+.THIS .singIn {
+    color: #878487;
 }
