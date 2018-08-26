@@ -1,31 +1,37 @@
 <aura:component access="global">
-    <div class="main slds-large-size--1-of-1">
+
+    <div class="main slds-size--1-of-1">
 
         <div class="slds-large-size--1-of-1">
             <img src="{!$Resource.Onliner_Header}"/>
         </div>
 
-        <div class="linkBox slds-large-size--1-of-1 slds-grid">
-            <div class="slds-large-size--1-of-2 slds-grid">
-                <div class="link slds-large-size--2-of-6 slds-text-link_faux slds-box slds-box--x-small slds-text-align--center">
-                    Some text
+        <div class="linkBox test">
+
+            <div class="slds-size--1-of-1 slds-grid slds-wrap">
+
+                <div class="slds-large-size--1-of-2 slds-medium-size--1-of-1 slds-grid">
+                    <div class="link slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
+                        Some tab
+                    </div>
+                    <div class="slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
+                        Some tab
+                    </div>
+                    <div class="slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
+                        Some tab
+                    </div>
                 </div>
-                <div class="slds-large-size--2-of-6 slds-text-link_faux slds-box slds-box--x-small slds-text-align--center">
-                    Some text
-                </div>
-                <div class="slds-large-size--2-of-6 slds-text-link_faux slds-box slds-box--x-small slds-text-align--center">
-                    Some text
-                </div>
-            </div>
-            <div class="slds-large-size--1-of-2 slds-grid">
-                <div class="slds-large-size--2-of-6 slds-text-link_faux slds-box slds-box--x-small slds-text-align--center">
-                    Some text
-                </div>
-                <div class="slds-large-size--2-of-6 slds-text-link_faux slds-box slds-box--x-small slds-text-align--center">
-                    Some text
-                </div>
-                <div class="slds-large-size--2-of-6 slds-text-link_faux slds-box slds-box--x-small slds-text-align--center">
-                    Some text
+
+                <div class="slds-large-size--1-of-2 slds-medium-size--1-of-1 slds-grid">
+                    <div class="slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
+                        Some tab
+                    </div>
+                    <div class="slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
+                        Some tab
+                    </div>
+                    <div class="slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
+                        Some tab
+                    </div>
                 </div>
             </div>
         </div>
@@ -34,17 +40,14 @@
 
             <div class="slds-large-size--1-of-5 slds-grid">
                 <div class="slds-size--1-of-1">
-                    <div class="slds-large-size--1-of-1">
+                    <div class="slds-large-size--1-of-1 slds-p-top--medium slds-p-left--small">
                         <img src="{!$Resource.Logo}"/>
                     </div>
                 </div>
-                <!--<div class="slds-size&#45;&#45;2-of-3">-->
-
-                <!--</div>-->
             </div>
 
             <div class="searchBox slds-large-size--3-of-5 slds-grid">
-                <div class="serchField slds-form-element slds-large-size--4-of-5">
+                <div class="slds-form-element slds-large-size--4-of-5">
                     <div class="slds-form-element__control slds-grid">
                         <input type="text" id="text-input-id-1" class="slds-input" placeholder="Search" />
                         <div class="slds-size--1-of-5 slds-grid slds-m-left_small">
@@ -55,7 +58,7 @@
             </div>
 
             <div class="slds-large-size--1-of-5 slds-grid">
-                <div class="serchField slds-form-element slds-large-size--4-of-5">
+                <div class="serchField slds-form-element slds-size--4-of-5">
                     <div class="slds-form-element__control">
                         <input type="text" id="text-input-id-1" class="slds-input" placeholder="Login" />
                     </div>
@@ -71,42 +74,58 @@
 
         </div>
 
-        <div class=" slds-large-size--1-of-1 slds-grid">
+        <div class="slds-size--1-of-1 slds-grid slds-wrap">
 
-            <div class=" contentImg slds-large-size--2-of-6">
-                <div class=" contentImg slds-large-size--1-of-1 ">
-                    <img src="{!$Resource.Content_Img_1}"/>
+            <div class="slds-large-size--3-of-6 slds-medium-size--1-of-1 slds-small-size--1-of-1 slds-size--1-of-1 slds-large-order_2">
+
+                <div class="imgCenterBig slds-size--1-of-1 ">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
                 </div>
-                <div class=" contentImg slds-large-size--1-of-1">
-                    <img src="{!$Resource.Content_Img_2}"/>
-                </div>
-                <div class=" contentImg slds-large-size--1-of-1">
-                    <img src="{!$Resource.Content_Img_3}"/>
+
+                <div class="imgCenterSmall slds-size--1-of-1 ">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
                 </div>
             </div>
 
-            <div class=" contentImg slds-large-size--3-of-6">
-                <div class=" contentImg slds-large-size--1-of-1 ">
-                    <img src="{!$Resource.Content_Img_4}"/>
+            <div class="slds-large-size--2-of-6 slds-medium-size--4-of-6 slds-small-size--4-of-6 slds-size--1-of-1 slds-large-order_1">
+
+                <div class="imgLeft1 slds--size--1-of-1">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
                 </div>
-                <div class=" contentImg slds-large-size--1-of-1 ">
-                    <img src="{!$Resource.Content_Img_5}"/>
+
+                <div class="imgLeft2 slds--size--1-of-1">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
+                </div>
+
+                <div class="imgLeft3 slds--size--1-of-1">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
                 </div>
             </div>
 
-            <div class=" contentImg slds-large-size--1-of-6">
-                <div class=" contentImg slds-large-size--1-of-1 ">
-                    <img src="{!$Resource.Content_Img_6}"/>
+            <div class="slds-large-size--1-of-6 slds-medium-size--2-of-6 slds-small-size--2-of-6 slds-size--1-of-1 slds-large-order_3">
+
+                <div class="imgRight1 slds-size--1-of-1 ">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
                 </div>
-                <div class=" contentImg slds-large-size--1-of-1 ">
-                    <img src="{!$Resource.Content_Img_7}"/>
-                </div>
-                <div class=" contentImg slds-large-size--1-of-1 ">
-                    <img src="{!$Resource.Content_Img_8}"/>
+                <div class="imgRight2 slds-size--1-of-1 ">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
                 </div>
             </div>
         </div>
-
 
     </div>
 

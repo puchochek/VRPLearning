@@ -11,16 +11,16 @@
                 This is a header.
             </div>
         </div>
-    <div class="custom-class">
-        <div class="slds-grid slds-large-size--1-of-1 ">
-            <div class="slds-large-size--1-of-4 slds-small-size--2-of-4 slds-box slds-box--x-small slds-theme_shade slds-theme_alert-texture slds-text-align--left slds-m-right--medium limitVert">
-                <aura:iteration items="{!v.contactForIteration}" var="contact">
-                    <ul>
-                        <lightning:icon iconName="custom:custom18" size="small"/>
-                        <li>{!contact.Name}</li>
-                    </ul>
-                </aura:iteration>
-            </div>
+        <div class="custom-class">
+            <div class="slds-grid slds-large-size--1-of-1 ">
+                <div class="slds-large-size--1-of-4 slds-small-size--2-of-4 slds-box slds-box--x-small slds-theme_shade slds-theme_alert-texture slds-text-align--left slds-m-right--medium limitVert">
+                    <aura:iteration items="{!v.contactForIteration}" var="contact">
+                        <ul>
+                            <lightning:icon iconName="custom:custom18" size="small"/>
+                            <li>{!contact.Name}</li>
+                        </ul>
+                    </aura:iteration>
+                </div>
 
             <div class="slds-large-size--3-of-4 slds-small-size--2-of-4 slds-box slds-box--x-small slds-theme_shade slds-theme_alert-texture slds-text-align--center slds-m-right_x-large">
                 This is the left side.

@@ -8,11 +8,11 @@ public class FreeAccount {
             SELECT Name
             FROM Account
         ];
-        Integer averageContactNumber = Integer.valueOf(Math.round(allContacts.size() / allAccounts.size()));
+        Double averageContactNumber = allContacts.size() / allAccounts.size();
         System.debug(averageContactNumber);
         Map<Id, Integer> ContactsOnAccounts = new Map<Id, Integer>();
-        List<Id> lonleyContacts = new List<Id>();
-		List<Contact> contactsWithAccount = new List<Contact>();        
+        List<Contact> lonleyContacts = new List<Contact>(); 
+        List<Contact> contactsForUpdate = new List<Contact>();
         
         for (Account acc : allAccounts) {
             ContactsOnAccounts.put(acc.Id, 0);
@@ -21,7 +21,6 @@ public class FreeAccount {
             if (cont.AccountId != null) {
                 Integer countContacts = ContactsOnAccounts.get(cont.AccountId);
                 ContactsOnAccounts.put(cont.AccountId, countContacts + 1);
-                contactsWithAccount.add(cont);
             }
         }
         //System.debug(ContactsOnAccounts);
@@ -33,28 +32,37 @@ public class FreeAccount {
                 cont.AccountId = null;
             }
             if (cont.AccountId == null) {
-                lonleyContacts.add(cont.Id);
-                
-                
+                lonleyContacts.add(cont);                  
             }
         }
-        System.debug(allAccounts.size());
-        System.debug(contactsWithAccount.size());
-        System.debug(lonleyContacts.size());
-        for (Contact cont : contactsWithAccount) {    
-            if (ContactsOnAccounts.get(cont.AccountId) < averageContactNumber) {                
-                System.debug(ContactsOnAccounts.get(cont.AccountId));
-                /*while (ContactsOnAccounts.get(cont.AccountId) < averageContactNumber)  {                   
-                    while (lonleyContacts.size()>0) {                                                                                                                    
-                        ContactsOnAccounts.put(cont.AccountId, ContactsOnAccounts.get(cont.AccountId) + 1);
-                        cont.AccountId = lonleyContacts.remove(0);
-                    }
-                }*/ 
-                System.debug(lonleyContacts.size());                                                                                               
+        
+        Integer numberOfCreatedContacts = 0;
+        for (Account acc : allAccounts) {    
+            Integer countContacts = ContactsOnAccounts.get(acc.Id);
+            
+            while (countContacts < averageContactNumber) {                                              
+                if (lonleyContacts.size()>0) {                                                                                                                    
+                    ContactsOnAccounts.put(acc.Id, countContacts + 1);
+                    Contact cont = lonleyContacts.remove(0);
+                    cont.AccountId = acc.Id;
+                    contactsForUpdate.add(cont);
+                    countContacts = countContacts + 1;
+                }  else {                    
+                    Contact cont = new Contact();
+                    cont.AccountId = acc.Id;
+                    cont.LastName = acc.Name + numberOfCreatedContacts;
+                    contactsForUpdate.add(cont);
+                    ContactsOnAccounts.put(acc.Id, countContacts + 1);
+					numberOfCreatedContacts++; 
+                    countContacts = countContacts + 1;
+                }                                                                                                             
             }             
         }
-        //System.debug(ContactsOnAccounts);
-        //System.debug(lonleyContacts.size());
-    } 
-
+        upsert contactsForUpdate;
+		System.debug(allAccounts);
+    	System.debug(lonleyContacts.size());
+		System.debug(contactsForUpdate);
+        System.debug(allAccounts.size());
+        System.debug(allContacts.size());
+    }
 }

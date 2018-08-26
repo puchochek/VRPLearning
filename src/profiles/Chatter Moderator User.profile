@@ -193,6 +193,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>FreeAccountTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HasRecordIdAccount</apexClass>
         <enabled>false</enabled>
     </classAccesses>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73ddebd-a793-4e3b-833e-6dd726e67d7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmpController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.cmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.cmp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +22,14 @@
     <favorites_list name="Salesforce" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="OnlinerAppCmp.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="277">
+              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
-                <marker date="1535213421064" expanded="true" signature="316:355" ph="..." />
+                <marker date="1535295395590" expanded="true" signature="344:413" ph="..." />
               </folding>
             </state>
           </provider>
@@ -38,17 +38,8 @@
       <file leaf-file-name="OnlinerAppCmp.cmp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SLDSappCmp.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -56,8 +47,8 @@
       <file leaf-file-name="SLDSappCmp.cmp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="135" lean-forward="true" selection-start-line="9" selection-start-column="117" selection-end-line="9" selection-end-column="135" />
+            <state relative-caret-position="161">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -66,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/aura/OnlinerApp/OnlinerApp.app">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -109,6 +100,7 @@
       <find>firstAction</find>
       <find>SecondParam</find>
       <find>QuickActionAccount</find>
+      <find>small</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/aura/HasRecordIdAccount/HasRecordIdAccount.cmp" />
         <option value="$PROJECT_DIR$/src/aura/QuickActionAccount/QuickActionAccountController.js" />
         <option value="$PROJECT_DIR$/src/aura/QuickActionAccount/QuickActionAccountHelper.js" />
         <option value="$PROJECT_DIR$/src/classes/QuickActionAccount.cls" />
@@ -164,8 +155,9 @@
         <option value="$PROJECT_DIR$/src/classes/English.cls" />
         <option value="$PROJECT_DIR$/src/aura/Onliner/Onliner.app" />
         <option value="$PROJECT_DIR$/src/aura/Onliner/Onliner.cmp" />
-        <option value="$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.cmp" />
         <option value="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmpController.js" />
+        <option value="$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.css" />
+        <option value="$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.cmp" />
         <option value="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.css" />
         <option value="$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.cmp" />
       </list>
@@ -245,11 +237,11 @@
                       <entry key="AURA/LIGHTNINGTASKCOMPONENT" value="1533097966730" />
                       <entry key="AURA/NBRBCMP" value="1533461942130" />
                       <entry key="AURA/ONLINER" value="1535133491728" />
-                      <entry key="AURA/ONLINERAPPCMP" value="1535213424700" />
+                      <entry key="AURA/ONLINERAPPCMP" value="1535295411929" />
                       <entry key="AURA/QUICKACTIONACCOUNT" value="1534594128135" />
                       <entry key="AURA/RESCENTCONTACTSAPP" value="1534693063936" />
                       <entry key="AURA/RESCENTLEYVIEWEDRECORDS" value="1534693003920" />
-                      <entry key="AURA/SLDSAPPCMP" value="1535139600000" />
+                      <entry key="AURA/SLDSAPPCMP" value="1535285050000" />
                       <entry key="AURA/USERGREETINGS" value="1534693339352" />
                       <entry key="CLASSES/ACCOUNTCONTROLLER.CLS" value="1533067187757" />
                       <entry key="CLASSES/ACTIONTASK.CLS" value="1532290313142" />
@@ -3031,7 +3023,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="680" />
+    <option name="x" value="373" />
+    <option name="y" value="13" />
     <option name="width" value="822" />
     <option name="height" value="820" />
   </component>
@@ -3045,6 +3038,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -3104,6 +3098,13 @@
               <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="SLDSapp" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Salesforce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Salesforce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
               <item name="SLDSappCmp" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
             </path>
             <path>
@@ -3116,7 +3117,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3373,7 +3373,9 @@
       <workItem from="1534960872608" duration="3802000" />
       <workItem from="1535048056001" duration="1430000" />
       <workItem from="1535132017381" duration="10028000" />
-      <workItem from="1535192765196" duration="18708000" />
+      <workItem from="1535192765196" duration="18936000" />
+      <workItem from="1535264112493" duration="81000" />
+      <workItem from="1535264710036" duration="27197000" />
     </task>
     <servers />
   </component>
@@ -3410,14 +3412,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368025000" />
+    <option name="totallyTimeSpent" value="395531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.36696658" side_tool="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.36760926" side_tool="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.6510283" weight="0.4322493" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -3436,8 +3438,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5764781" weight="0.3292683" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.31169665" />
-      <window_info anchor="bottom" id="Problems" order="8" sideWeight="0.6330334" visible="true" weight="0.3292683" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.31940874" />
+      <window_info anchor="bottom" id="Problems" order="8" sideWeight="0.63239074" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="SOQL Query" order="7" weight="0.33604336" />
       <window_info anchor="bottom" id="Log Viewer" order="7" sideWeight="0.6510283" weight="0.41463414" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -3491,7 +3493,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/aura/UserGreetings/UserGreetings.app" />
     <entry file="file://$PROJECT_DIR$/src/classes/RESTserviceTest.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -3768,38 +3769,41 @@
     <entry file="file://$PROJECT_DIR$/src/aura/OnlinerApp/OnlinerApp.app">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="135" lean-forward="true" selection-start-line="9" selection-start-column="117" selection-end-line="9" selection-end-column="135" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/SLDSapp/SLDSapp.app">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/SLDSappCmp/SLDSappCmp.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="277">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding>
-            <marker date="1535213421064" expanded="true" signature="316:355" ph="..." />
+            <marker date="1535295395590" expanded="true" signature="344:413" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/OnlinerAppCmp/OnlinerAppCmp.cmp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
