@@ -2,15 +2,15 @@
 
     <div class="main slds-size--1-of-1">
 
-        <div class="slds-large-size--1-of-1">
-            <img src="{!$Resource.Onliner_Header}"/>
+        <div class="header slds-large-size--1-of-1">
+            <!--<img src="{!$Resource.Onliner_Header}"/>-->
         </div>
 
-        <div class="linkBox test">
+        <div class="linkBox">
 
-            <div class="slds-size--1-of-1 slds-grid slds-wrap">
+            <div class="slds-size--1-of-1 slds-grid test">
 
-                <div class="slds-large-size--1-of-2 slds-medium-size--1-of-1 slds-grid">
+                <div class="slds-large-size--1-of-2 slds-grid">
                     <div class="link slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
                         Some tab
                     </div>
@@ -69,63 +69,151 @@
                         Sing in
                     </div>
                 </div>
+            </div>
+        </div>
 
+        <div class="smallerTabs slds-size--1-of-1 slds-grid">
+            <div class="slds-large-size--1-of-2 slds-medium-size--1-of-1 slds-grid">
+                <div class="slds-large-size--2-of-6 slds-medium-size--1-of-3 slds-gridslds-text-link_faux slds-text-align--center">
+                    Another tab
+                </div>
+                <div class="slds-large-size--2-of-6 slds-medium-size--1-of-3 slds-text-link_faux slds-text-align--center">
+                    Another tab
+                </div>
+                <div class="slds-large-size--2-of-6 slds-medium-size--1-of-3 slds-text-link_faux slds-text-align--center">
+                    Another tab
+                </div>
             </div>
 
+            <!--<div class="slds-large-size&#45;&#45;1-of-2 slds-medium-size&#45;&#45;1-of-1 slds-grid slds-p-right_medium">-->
+                <!--<div class="icon slds-large-size&#45;&#45;1-of-12 slds-grid">-->
+
+                        <!--<div class="icon slds-large-size&#45;&#45;1-of-12 test slds-grid slds-text-link_faux slds-p-right_medium">-->
+                            <!--<lightning:icon iconName="utility:animal_and_nature" size="small"/>-->
+                        <!--</div>-->
+                        <!--<div class="icon slds-large-size&#45;&#45;1-of-12 test slds-grid slds-text-link_faux slds-p-right_medium">-->
+                            <!--<lightning:icon iconName="utility:smiley_and_people" size="small"/>-->
+                        <!--</div>-->
+                        <!--<div class="icon slds-large-size&#45;&#45;1-of-12 test slds-grid slds-text-link_faux slds-p-right_medium">-->
+                            <!--<lightning:icon iconName="utility:trail" size="small"/>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
 
         <div class="slds-size--1-of-1 slds-grid slds-wrap">
 
-            <div class="slds-large-size--3-of-6 slds-medium-size--1-of-1 slds-small-size--1-of-1 slds-size--1-of-1 slds-large-order_2">
+            <div class="alignImages slds-large-size--3-of-6 slds-medium-size--1-of-1 slds-small-size--1-of-1 slds-size--1-of-1 slds-large-order_2">
 
-                <div class="imgCenterBig slds-size--1-of-1 ">
+                <div class="imgCenterBig transp slds-size--1-of-1 ">
                     <div class="article_title slds-text-link_faux">
                         Link to the article
                     </div>
                 </div>
 
-                <div class="imgCenterSmall slds-size--1-of-1 ">
-                    <div class="article_title slds-text-link_faux">
-                        Link to the article
-                    </div>
-                </div>
-            </div>
-
-            <div class="slds-large-size--2-of-6 slds-medium-size--4-of-6 slds-small-size--4-of-6 slds-size--1-of-1 slds-large-order_1">
-
-                <div class="imgLeft1 slds--size--1-of-1">
-                    <div class="article_title slds-text-link_faux">
-                        Link to the article
-                    </div>
-                </div>
-
-                <div class="imgLeft2 slds--size--1-of-1">
-                    <div class="article_title slds-text-link_faux">
-                        Link to the article
-                    </div>
-                </div>
-
-                <div class="imgLeft3 slds--size--1-of-1">
+                <div class="imgCenterSmall transp slds-size--1-of-1 ">
                     <div class="article_title slds-text-link_faux">
                         Link to the article
                     </div>
                 </div>
             </div>
 
-            <div class="slds-large-size--1-of-6 slds-medium-size--2-of-6 slds-small-size--2-of-6 slds-size--1-of-1 slds-large-order_3">
+            <div class="alignImages slds-large-size--2-of-6 slds-medium-size--4-of-6 slds-small-size--4-of-6 slds-size--1-of-1 slds-large-order_1">
 
-                <div class="imgRight1 slds-size--1-of-1 ">
+                <div class="imgLeft1 transp slds--size--1-of-1">
                     <div class="article_title slds-text-link_faux">
                         Link to the article
                     </div>
                 </div>
-                <div class="imgRight2 slds-size--1-of-1 ">
+
+                <div class="imgLeft2 transp slds--size--1-of-1">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
+                </div>
+
+                <div class="imgLeft3 transp slds--size--1-of-1">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
+                </div>
+            </div>
+
+            <div class="alignImages slds-large-size--1-of-6 slds-medium-size--2-of-6 slds-small-size--2-of-6 slds-size--1-of-1 slds-large-order_3">
+
+                <div class="imgRight1 transp slds-size--1-of-1 ">
+                    <div class="article_title slds-text-link_faux">
+                        Link to the article
+                    </div>
+                </div>
+                <div class="imgRight2 transp slds-size--1-of-1 ">
                     <div class="article_title slds-text-link_faux">
                         Link to the article
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="sectionHeader test">
+            Some Section
+        </div>
+
+        <div class="slds-large-size--1-of-1 slds-grid">
+            <div class="imagesField transp slds-large-size--1-of-6">
+                <img src="{!$Resource.SmallTab1}"/>
+            </div>
+            <div class="imagesField transp slds-large-size--1-of-6">
+                <img src="{!$Resource.SmallTab4}"/>
+            </div>
+            <div class="imagesField transp slds-large-size--1-of-6">
+                <img src="{!$Resource.SmallTab2}"/>
+            </div>
+            <div class="imagesField transp slds-large-size--1-of-6">
+                <img src="{!$Resource.SmallTab3}"/>
+            </div>
+            <div class="imagesField transp slds-large-size--1-of-6">
+                <img src="{!$Resource.SmallTab5}"/>
+            </div>
+            <div class="imagesField transp slds-large-size--1-of-6">
+                <img src="{!$Resource.SmallTab6}"/>
+            </div>
+        </div>
+
+        <div class="textContent slds-size--1-of-1">
+            <div class="text">
+                <div class="textHeader">Ocean acidification is having major impact on marine life</div>
+                Ocean currents in the area mean there are naturally low
+                levels of surface water CO2, similar to those that would
+                have been present before the global Industrial Revolution.
+                However, the volcanic seeps indicate how rising CO2 levels
+                will affect future ecology, both in the northwest Pacific
+                    Ocean and across the world.
+                <br/>
+                <img id="imgId" src="{!$Resource.TextImg}"/>
+                Lead author Dr Sylvain Agostini, Associate Professor at the
+                University of Tsukuba Shimoda Marine Research Centre, said:
+                "These CO2 seeps provide a vital window into the future.
+                There was mass mortality of corals in the south of Japan last year,
+                but many people cling to the hope that corals will be able to spread north.
+                Therefore it is extremely worrying to find that tropical corals are so
+                vulnerable to ocean acidification, as this will stop them from being able
+                to spread further north and escape the damage caused by water that is too hot for them."
+                <br/>
+                <br/>
+                The research was led by scientists at the University of Tsukuba in Japan, the University
+                of Plymouth in the UK and the University of Palermo in Italy.
+                It involved teams of SCUBA divers who carried out investigations along underwater CO2 gradients
+                created by volcanic seeps, recording how the fauna and flora respond to seawater acidification.
+                They found that while a few plant species benefitted from the changing conditions, they tended
+                to be smaller weeds and algae that blanket the seabed, choking corals and lowering overall marine diversity.
+                These species, and some smaller marine animals, are thriving because they are more tolerant to the stress
+                posed by rising levels of CO2.
+
+            </div>
+
+        </div>
+
 
     </div>
 

@@ -2,6 +2,15 @@
     background-color: #e3f7e7;
 }
 
+.THIS .header {
+    border-bottom: 1px solid white;
+    height: 60px;
+    weight: 100%;
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535355226000/Onliner_Header');
+    overflow: hidden;
+
+}
+
 .THIS .linkBox {
     background-color: #b0e5cb;
     height: 40px;
@@ -11,27 +20,42 @@
 }
 
 .THIS .searchBox {
-    /*background-color: #58c96b;*/
-    height: 50px;
+    height: 70px;
     font-size: 1.5em;
     color: gray();
     padding-top: 45px;
-    padding-left: 15px;
+    padding-left: 20px;
 
 }
+
+.THIS .smallerTabs {
+    background-color: #b0e5cb;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #42603e;
+    padding-left: 10px;
+
+}
+
 
 .THIS .serchField {
     padding-top: 25px;
+    padding-right: 10px;
+}
+
+.THIS .icon {
     padding-right: 15px;
 }
+
 
 .THIS .imgLeft1 {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
     height: 170px;
-    weight: 530px;
+    weight: 550px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535277287000/Content_Img_1');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535352964000/Content_Img_1');
     background-repeat:no-repeat;
  }
 
@@ -39,9 +63,9 @@
     border-bottom: 1px solid white;
     border-right: 1px solid white;
     height: 170px;
-    weight: 530px;
+    weight: 550px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535205305000/Content_Img_2');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535356770000/Content_Img_2');
     background-repeat:no-repeat;
 }
 
@@ -49,9 +73,9 @@
     border-bottom: 1px solid white;
     border-right: 1px solid white;
     height: 170px;
-    weight: 530px;
+    weight: 550px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535277430000/Content_Img_3');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535355380000/Content_Img_3');
     background-repeat:no-repeat;
 }
 
@@ -59,7 +83,7 @@
     border-bottom: 1px solid white;
     border-right: 1px solid white;
     height: 420px;
-    weight: 530px;
+    weight: 550px;
     overflow: hidden;
     background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535274040000/Content_Img_4/imgCenter.jpg');
     background-repeat:no-repeat;
@@ -70,7 +94,7 @@
     border-bottom: 1px solid white;
     border-right: 1px solid white;
     height: 90px;
-    weight: 530px;
+    weight: 550px;
     overflow: hidden;
     background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535276983000/Content_Img_5');
     background-repeat:no-repeat;
@@ -81,7 +105,7 @@
     height: 255px;
     weight: 200px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535269563000/Content_Img_6');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535356606000/Content_Img_6');
     background-repeat:no-repeat;
 }
 
@@ -90,7 +114,7 @@
     height: 255px;
     weight: 200px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535269575000/Content_Img_7');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535356985000/Content_Img_7');
     background-repeat:no-repeat;
 }
 
@@ -108,8 +132,58 @@
     color: #878487;
 }
 
-@media (max-width: 800px) {
-    .THIS.test {
+.THIS .transp:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+
+.THIS .sectionHeader {
+    height: 60px;
+    font-weight: bold;
+    font-size: 3.2em;
+    color: #216359;
+    padding-left: 15px;
+}
+
+.THIS .imagesField {
+    border-right: 1px solid white;
+    max-height: 100px;
+    max-weight: 120px;
+    overflow: hidden;
+}
+
+.THIS .textContent {
+    margin-top: 1px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.THIS .textHeader {
+    margin-top: 1px;
+    margin-left: 3px;
+    margin-right: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: right;
+    color: #216359;
+}
+
+.THIS .text {
+    margin-top: 1px;
+    margin-left: 3px;
+    margin-right: 10px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.THIS #imgId {
+    float: left;
+    padding-right: 5px;
+}
+
+@media (max-width: 1050px) {
+    .THIS .test {
         display: none;
     }
 }
+
