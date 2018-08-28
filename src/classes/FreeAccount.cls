@@ -23,7 +23,6 @@ public class FreeAccount {
                 ContactsOnAccounts.put(cont.AccountId, countContacts + 1);
             }
         }
-        //System.debug(ContactsOnAccounts);
         
         for (Contact cont : allContacts) {
             Integer countContacts = ContactsOnAccounts.get(cont.AccountId);

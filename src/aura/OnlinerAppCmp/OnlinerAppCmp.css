@@ -24,7 +24,7 @@
     font-size: 1.5em;
     color: gray();
     padding-top: 45px;
-    padding-left: 20px;
+    padding-left: 150px;
 
 }
 
@@ -38,7 +38,6 @@
 
 }
 
-
 .THIS .serchField {
     padding-top: 25px;
     padding-right: 10px;
@@ -48,71 +47,99 @@
     padding-right: 15px;
 }
 
-
 .THIS .imgLeft1 {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-    height: 170px;
-    weight: 550px;
+    height: 300px;
+    weight: 350px;
     overflow: hidden;
     background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535352964000/Content_Img_1');
     background-repeat:no-repeat;
- }
+}
 
 .THIS .imgLeft2 {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-    height: 170px;
-    weight: 550px;
+    height: 150px;
+    weight: 350px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535356770000/Content_Img_2');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535482065000/Content_Img_2');
     background-repeat:no-repeat;
 }
 
-.THIS .imgLeft3 {
+.THIS .imgCenter1 {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-    height: 170px;
-    weight: 550px;
+    height: 150px;
+    weight: 350px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535355380000/Content_Img_3');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535483802000/center1/');
     background-repeat:no-repeat;
 }
 
-.THIS .imgCenterBig {
+.THIS .imgCenter2 {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-    height: 420px;
-    weight: 550px;
+    height: 150px;
+    weight: 350px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535274040000/Content_Img_4/imgCenter.jpg');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535484260000/center2/');
     background-repeat:no-repeat;
 }
 
-
-.THIS .imgCenterSmall {
+.THIS .imgCenter3 {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-    height: 90px;
-    weight: 550px;
+    height: 150px;
+    weight: 350px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535276983000/Content_Img_5');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535482717000/center3/');
     background-repeat:no-repeat;
-  }
+}
+
+.THIS .imgCenter4 {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    height: 150px;
+    weight: 350px;
+    overflow: hidden;
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535484508000/center4/');
+    background-repeat:no-repeat;
+}
+
+.THIS .imgCenter5 {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    height: 150px;
+    weight: 350px;
+    overflow: hidden;
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535483829000/center5/');
+    background-repeat:no-repeat;
+}
+
+.THIS .imgCenter6 {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    height: 150px;
+    weight: 350px;
+    overflow: hidden;
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535482796000/center6/');
+    background-repeat:no-repeat;
+}
 
 .THIS .imgRight1 {
     border-bottom: 1px solid white;
-    height: 255px;
-    weight: 200px;
+    height: 150px;
+    weight: 350px;
     overflow: hidden;
-    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535356606000/Content_Img_6');
+    background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535484069000/right1');
     background-repeat:no-repeat;
 }
 
 .THIS .imgRight2 {
     border-bottom: 1px solid white;
-    height: 255px;
-    weight: 200px;
+    height: 300px;
+    weight: 350px;
     overflow: hidden;
     background: url('https://vrpvisualpage-dev-ed.lightning.force.com/resource/1535356985000/Content_Img_7');
     background-repeat:no-repeat;
@@ -179,11 +206,19 @@
 .THIS #imgId {
     float: left;
     padding-right: 5px;
+    max-height: 250px;
+    max-weight: 300px;
+    overflow: hidden;
 }
+
+/*.THIS .bin {
+ 	margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;  
+}*/
 
 @media (max-width: 1050px) {
     .THIS .test {
         display: none;
     }
 }
-

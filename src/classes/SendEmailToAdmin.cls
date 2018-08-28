@@ -6,17 +6,17 @@ global class SendEmailToAdmin implements Schedulable{
         List<Account> createdAccounts = [
             SELECT Id, Name 
             FROM Account
-            WHERE CreatedDate = :Date.today()
+            WHERE CreatedDate >= :Date.today().addDays(-1)
         ];
         List<Contact> createdContacts = [
             SELECT Id, Name 
             FROM Contact
-            WHERE CreatedDate = :Date.today()
+            WHERE CreatedDate >= :Date.today().addDays(-1)
         ];
         List<Case> createdCases = [
             SELECT Id 
             FROM Case
-            WHERE CreatedDate = :Date.today()
+            WHERE CreatedDate >= :Date.today().addDays(-1)
         ];
              
         Profile sysAdmin = [
