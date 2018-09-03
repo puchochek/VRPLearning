@@ -1,0 +1,23 @@
+<apex:page showHeader="true" sideBar="false" id="UseCustomTemplate2">
+    <apex:slds />
+
+    <apex:composition template="CustomSiteTemplate">
+        <apex:define name="Header">
+        </apex:define>
+
+        <apex:define name="Left">
+            <br/>
+            <a href="https://vrpvisualpage-dev-ed--c.ap4.visual.force.com/apex/CustomSiteTemplate">Home</a>
+        </apex:define>
+
+        <apex:define name="ContentArea">
+            Content area
+            <br/>
+            <a href="https://vrpvisualpage-dev-ed--c.ap4.visual.force.com/apex/UseCustomSiteTemplate">Info</a>
+        </apex:define>
+
+        <apex:define name="Footer">
+        </apex:define>
+    </apex:composition>
+
+</apex:page>

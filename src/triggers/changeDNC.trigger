@@ -6,7 +6,7 @@ trigger changeDNC on Contact (after insert, after update) {
     if(trigger.isAfter&&trigger.isUpdate){
         if (changeDNCHandler.isTriggerExecuted != true) {
             changeDNCHandler.isTriggerExecuted = true;
-        	changeDNCHandler.changeDNCandAccId(Trigger.new, Trigger.Old);
+            changeDNCHandler.changeDNCandAccId(Trigger.new, Trigger.Old);
             changeDNCHandler.isTriggerExecuted = false;
         }
     }

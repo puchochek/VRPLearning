@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font color="#16325c" face="monospace, monospace"><span style="font-size: 13px; background-color: rgb(255, 255, 255);">yes</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><kbd style="color: rgb(22, 50, 92); font-family: monospace, monospace; font-size: 13px; box-sizing: border-box; border: 0px; margin: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: initial;">Approve this contact?&nbsp;</kbd><font color="#16325c" face="monospace, monospace"><span style="font-size: 13px;">{!Contact.Name}</span></font></div>]]></td>
+</tr>
+</table>

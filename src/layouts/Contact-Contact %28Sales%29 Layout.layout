@@ -408,6 +408,18 @@
         <fields>Comments</fields>
         <relatedList>RelatedProcessHistoryList</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>FirstNameOld__c</fields>
+        <fields>FirstNameNew__c</fields>
+        <fields>LastNameOld__c</fields>
+        <fields>LastNameNew__c</fields>
+        <fields>EmailOld__c</fields>
+        <fields>EmailNew__c</fields>
+        <fields>PhoneOld__c</fields>
+        <fields>PhoneNew__c</fields>
+        <relatedList>Contact_history__c.Contact__c</relatedList>
+    </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

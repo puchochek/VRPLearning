@@ -38,7 +38,7 @@ global class SendEmailToAdmin implements Schedulable{
         mail.setSenderDisplayName('Lena');
         mail.setBccSender(false);
         mail.setUseSignature(false);
-        mail.setPlainTextBody('Folloving objects were created tooday ' + System.now() + ' Accounts: ' + createdAccounts + ' Contacts: ' + createdContacts + ' Cases ' + createdCases);
+        mail.setPlainTextBody('Folloving objects were created tooday ' + System.now() + '\n Accounts: ' + createdAccounts + '\n Contacts: ' + createdContacts + '\n Cases ' + createdCases);
         Messaging.sendEmail(new Messaging.SingleEmailMessage[] {mail});            
     }
 }

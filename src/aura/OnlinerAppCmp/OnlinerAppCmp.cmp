@@ -3,7 +3,7 @@
     <div class="main slds-size--1-of-1">
 
         <div class="header slds-large-size--1-of-1">
-            <!--<img src="{!$Resource.Onliner_Header}"/>-->
+
         </div>
 
         <div class="linkBox">
@@ -11,7 +11,7 @@
             <div class="slds-size--1-of-1 slds-grid test">
 
                 <div class="slds-large-size--1-of-2 slds-grid">
-                    <div class="link slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
+                    <div class="slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
                         Some tab
                     </div>
                     <div class="slds-large-size--2-of-6 slds-text-link_faux slds-text-align--center">
@@ -46,8 +46,8 @@
                 </div>
             </div>
 
-            <div class="searchBox slds-large-size--3-of-5 slds-grid">
-                <div class="slds-form-element slds-large-size--1-of-1">
+            <div class="searchBox slds-large-size--3-of-5 slds-grid ">
+                <div class="slds-form-element slds-large-size--1-of-1 slds-medium-size--1-of-1">
                     <div class="slds-form-element__control slds-grid">
                         <input type="text" id="text-input-id-1" class="slds-input" placeholder="Search" />
                         <div class="slds-size--1-of-5 slds-grid slds-m-left_small">
@@ -57,8 +57,8 @@
                 </div>
             </div>
 
-            <div class="slds-large-size--1-of-5 slds-grid">
-                <div class="serchField slds-form-element slds-size--4-of-5">
+            <div class="serchField slds-large-size--1-of-5 slds-grid test">
+                <div class=" slds-form-element slds-size--4-of-5">
                     <div class="slds-form-element__control">
                         <input type="text" id="text-input-id-1" class="slds-input" placeholder="Login" />
                     </div>
@@ -72,6 +72,8 @@
             </div>
         </div>
 
+
+
         <div class="smallerTabs slds-size--1-of-1 slds-grid">
             <div class="slds-large-size--1-of-2 slds-medium-size--1-of-1 slds-grid">
                 <div class="slds-large-size--2-of-6 slds-medium-size--1-of-3 slds-gridslds-text-link_faux slds-text-align--center">
@@ -84,22 +86,6 @@
                     Another tab
                 </div>
             </div>
-
-            <!--<div class="slds-large-size&#45;&#45;1-of-2 slds-medium-size&#45;&#45;1-of-1 slds-grid slds-p-right_medium">-->
-                <!--<div class="icon slds-large-size&#45;&#45;1-of-12 slds-grid">-->
-
-                        <!--<div class="icon slds-large-size&#45;&#45;1-of-12 test slds-grid slds-text-link_faux slds-p-right_medium">-->
-                            <!--<lightning:icon iconName="utility:animal_and_nature" size="small"/>-->
-                        <!--</div>-->
-                        <!--<div class="icon slds-large-size&#45;&#45;1-of-12 test slds-grid slds-text-link_faux slds-p-right_medium">-->
-                            <!--<lightning:icon iconName="utility:smiley_and_people" size="small"/>-->
-                        <!--</div>-->
-                        <!--<div class="icon slds-large-size&#45;&#45;1-of-12 test slds-grid slds-text-link_faux slds-p-right_medium">-->
-                            <!--<lightning:icon iconName="utility:trail" size="small"/>-->
-
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
         </div>
 
         <div class="slds-size--1-of-1 slds-grid slds-wrap">
@@ -171,7 +157,7 @@
             </div>
         </div>
 
-        <div class="sectionHeader test">
+        <div class="sectionHeader">
             Some Section
         </div>
 
@@ -199,45 +185,73 @@
             </div>
         </div>
 
-        <div class="textContent slds-size--1-of-1">
-            <div class="text">
+        <div class="textContent slds-size--1-of-1 slds-grid">
+            <div class="text slds-large-size--1-of-2 slds-p-left--medium slds-p-top--medium">
                 <div class="textHeader">Ocean acidification is having major impact on marine life</div>
-                <br/>
-                <img id="imgId" src="{!$Resource.TextImg}"/>
-                Ocean currents in the area mean there are naturally low
-                levels of surface water CO2, similar to those that would
-                have been present before the global Industrial Revolution.
-                However, the volcanic seeps indicate how rising CO2 levels
-                will affect future ecology, both in the northwest Pacific
-                    Ocean and across the world.
-                <br/>
-                <br/>
-                Lead author Dr Sylvain Agostini, Associate Professor at the
-                University of Tsukuba Shimoda Marine Research Centre, said:
-                "These CO2 seeps provide a vital window into the future.
-                There was mass mortality of corals in the south of Japan last year,
-                but many people cling to the hope that corals will be able to spread north.
-                Therefore it is extremely worrying to find that tropical corals are so
-                vulnerable to ocean acidification, as this will stop them from being able
-                to spread further north and escape the damage caused by water that is too hot for them."
-                <br/>
-                <br/>
-                The research was led by scientists at the University of Tsukuba in Japan, the University
-                of Plymouth in the UK and the University of Palermo in Italy.
-                It involved teams of SCUBA divers who carried out investigations along underwater CO2 gradients
-                created by volcanic seeps, recording how the fauna and flora respond to seawater acidification.
-                They found that while a few plant species benefitted from the changing conditions, they tended
-                to be smaller weeds and algae that blanket the seabed, choking corals and lowering overall marine diversity.
-                These species, and some smaller marine animals, are thriving because they are more tolerant to the stress
-                posed by rising levels of CO2.
+                    <img id="imgId" src="{!$Resource.TextImg}"/>
+                    Ocean currents in the area mean there are naturally low
+                    levels of surface water CO2, similar to those that would
+                    have been present before the global Industrial Revolution.
+                    However, the volcanic seeps indicate how rising CO2 levels
+                    will affect future ecology, both in the northwest Pacific
+                        Ocean and across the world.
+                    Lead author Dr Sylvain Agostini, Associate Professor at the
+                    University of Tsukuba Shimoda Marine Research Centre, said:
+                    "These CO2 seeps provide a vital window into the future.
+                    There was mass mortality of corals in the south of Japan last year,
+                    but many people cling to the hope that corals will be able to spread north.
+                    Therefore it is extremely worrying to find that tropical corals are so
+                    vulnerable to ocean acidification, as this will stop them from being able
+                    to spread further north and escape the damage caused by water that is too hot for them."
+                    The research was led by scientists at the University of Tsukuba in Japan, the University
+                    of Plymouth in the UK and the University of Palermo in Italy.
+                    It involved teams of SCUBA divers who carried out investigations along underwater CO2 gradients
+                    created by volcanic seeps, recording how the fauna and flora respond to seawater acidification.
+                    They found that while a few plant species benefitted from the changing conditions, they tended
+                    to be smaller weeds and algae that blanket the seabed, choking corals and lowering overall marine diversity.
+                    These species, and some smaller marine animals, are thriving because they are more tolerant to the stress
+                    posed by rising levels of CO2.
+                </div>
 
+            <div class="articleSection test slds-large-size--1-of-2 slds-p-left--small slds-p-top--large">
+                <div class="slds-large-size--1-of-1">
+                    <div class="article slds-size--1-of-1 slds-grid">
+                        <div class="articleImage slds-size--1-of-3">
+                            <img src="{!$Resource.art1}"/>
+                        </div>
+                        <div class="articleText transp slds-size--2-of-3 slds-p-left--small slds-p-top--large">
+                            Hawaiian scientists have successfully tested a novel way
+                            to remove an invasive species that was smothering a coral
+                            reef off Oahu.
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-large-size--1-of-1 slds-p-top--small">
+                    <div class="article slds-size--1-of-1 slds-grid">
+                        <div class="articleImage slds-size--1-of-3">
+                            <img src="{!$Resource.art2}"/>
+                        </div>
+                        <div class="articleText transp slds-size--2-of-3 slds-p-left--small slds-p-top--large">
+                            Just 13.2 percent of the world's seas — or about 20.8 million square miles
+                            (54million square kilometers) — remains truly wild, a new study suggests.
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-large-size--1-of-1 slds-p-top--small">
+                    <div class="article slds-size--1-of-1 slds-grid">
+                        <div class="articleImage slds-size--1-of-3">
+                            <img src="{!$Resource.art3}"/>
+                        </div>
+                        <div class="articleText transp slds-size--2-of-3 slds-p-left--small slds-p-top--large">
+                            85 Miles of Atlantic Coral Reef Stayed Hidden Until Now. Together, the coral-covered
+                            area explored by Okeanos and the Atlantis extends for an estimated 85 miles (137 km).
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
-
-
     </div>
-
 
 
 </aura:component>

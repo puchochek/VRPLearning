@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <customButtons>Go_To_Contact</customButtons>
-    <excludeButtons>RequestUseSfdc</excludeButtons>
     <layoutSections>
         <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
@@ -159,6 +158,18 @@
         <fields>Actor</fields>
         <fields>Comments</fields>
         <relatedList>RelatedProcessHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>FirstNameOld__c</fields>
+        <fields>FirstNameNew__c</fields>
+        <fields>LastNameOld__c</fields>
+        <fields>LastNameNew__c</fields>
+        <fields>EmailOld__c</fields>
+        <fields>EmailNew__c</fields>
+        <fields>PhoneOld__c</fields>
+        <fields>PhoneNew__c</fields>
+        <relatedList>Contact_history__c.Contact__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>

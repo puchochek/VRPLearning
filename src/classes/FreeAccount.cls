@@ -8,7 +8,9 @@ public class FreeAccount {
             SELECT Name
             FROM Account
         ];
-        Double averageContactNumber = allContacts.size() / allAccounts.size();
+        Integer averageContactNumber = Integer.valueOf(Math.round(Double.valueOf(allContacts.size()) / Double.valueOf(allAccounts.size())));
+        System.debug('с ' + allContacts.size()); 
+        System.debug('ф ' + allAccounts.size()); 
         System.debug(averageContactNumber);
         Map<Id, Integer> ContactsOnAccounts = new Map<Id, Integer>();
         List<Contact> lonleyContacts = new List<Contact>(); 
@@ -23,7 +25,7 @@ public class FreeAccount {
                 ContactsOnAccounts.put(cont.AccountId, countContacts + 1);
             }
         }
-        
+         
         for (Contact cont : allContacts) {
             Integer countContacts = ContactsOnAccounts.get(cont.AccountId);
             if (countContacts > averageContactNumber) {
@@ -34,13 +36,17 @@ public class FreeAccount {
                 lonleyContacts.add(cont);                  
             }
         }
+        update allContacts;
         
-        Integer numberOfCreatedContacts = 0;
+		System.debug('Values no more than average ' + ContactsOnAccounts); 
+        System.debug('Contacts withoun any acc START ' + lonleyContacts.size());
+        
+        
         for (Account acc : allAccounts) {    
             Integer countContacts = ContactsOnAccounts.get(acc.Id);
-            
+            Integer numberOfCreatedContacts = 0;
             while (countContacts < averageContactNumber) {                                              
-                if (lonleyContacts.size()>0) {                                                                                                                    
+                if (lonleyContacts.size() > 0) {                                                                                                                    
                     ContactsOnAccounts.put(acc.Id, countContacts + 1);
                     Contact cont = lonleyContacts.remove(0);
                     cont.AccountId = acc.Id;
@@ -58,9 +64,9 @@ public class FreeAccount {
             }             
         }
         upsert contactsForUpdate;
-		System.debug(allAccounts);
-    	System.debug(lonleyContacts.size());
-		System.debug(contactsForUpdate);
+		
+    	System.debug('Contacts withoun any acc FINISH ' + lonleyContacts.size());
+		System.debug('New or Updated cont ' + contactsForUpdate);
         System.debug(allAccounts.size());
         System.debug(allContacts.size());
     }

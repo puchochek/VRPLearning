@@ -1,32 +1,48 @@
 ({
     translateTheWord : function (component, wordToTranslate) {
-        console.log('Helper works');
-        var action = component.get('c.getTranslationFromJandex');
-        action.setParams({wordToTranslate : wordToTranslate});
-        console.log('word to translate ' + wordToTranslate);
-        action.setCallback(this, $A.getCallback(function (response) {
-            var state = response.getState();
-            if (state === 'SUCCESS') {
-                var responseJSON = response.getReturnValue();
-                var responseObj = JSON.parse(responseJSON);
-                //console.log('response ' + responseJSON);
-                console.log(responseObj);
-                console.log('000', responseObj.def.length);
-                var translations = [];
-                for (var i = 0; i < responseObj.def.length; i++) {
-                    //console.log('666', responseObj.def.tr[i].length);
-                    console.log('777', responseObj.def[i].tr[0].text);
-                    translations.push(responseObj.def[i].tr[0].text);
-
+        if (/\s/.test(wordToTranslate)) {
+            var action = component.get('c.getTranslationPhrase');
+            action.setParams({wordToTranslate : wordToTranslate});
+            action.setCallback(this, $A.getCallback(function (response) {
+                var state = response.getState();
+                if (state === 'SUCCESS') {
+                    var responseJSON = response.getReturnValue();
+                    var responseObj = JSON.parse(responseJSON);
+                    component.set('v.translation', responseObj.text);
+                } else if (state === 'ERROR') {
+                    var errors = response.getError();
+                    console.log(errors);
                 }
-                console.log('111', translations);
-                component.set('v.translation', translations);
-            } else if (state === 'ERROR') {
-                var errors = response.getError();
-                console.log(errors);
-            }
-        }));
-        $A.enqueueAction(action);
-    }
+            }));
+            $A.enqueueAction(action);
+        } else {
+            var action = component.get('c.getTranslationWord');
+            action.setParams({wordToTranslate : wordToTranslate});
+            action.setCallback(this, $A.getCallback(function (response) {
+                var state = response.getState();
+                if (state === 'SUCCESS') {
+                    var responseJSON = response.getReturnValue();
+                    var responseObj = JSON.parse(responseJSON);
+                    var translations = [];
+                    for (var i = 0; i < responseObj.def.length; i++) {
+                         translations.push(responseObj.def[i].tr[0].text);
+                     }
+                     component.set('v.translation', translations);
+                            } else if (state === 'ERROR') {
+                                var errors = response.getError();
+                                console.log(errors);
+                            }
+                        }));
+                        $A.enqueueAction(action);
+        }
+    },
+
+    saveTranslation : function (component, translation) {
+        console.log('the translation is ' + translation);
+        var action = component.get('c.saveTranslation');
+                action.setParams({
+                    translation : translation
+                });
+    },
 
 })

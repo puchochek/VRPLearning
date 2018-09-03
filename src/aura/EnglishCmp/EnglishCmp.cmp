@@ -11,14 +11,22 @@
         <lightning:button variant="brand" label="Translate" onclick="{!c.translate}"/>
     </div>
         <div class="slds-align_absolute-center" style="height: 5rem;">
-
     </div>
+    <br/>
+    <div id="myBut" class="slds-align_absolute-center">
+        <lightning:button variant="brand" label="Clear" onclick="{!c.clearData}" />
+    </div>
+    <br/>
     <aura:iteration items="{!v.translation}" var="word">
         <ul>
             <li>{!word}</li>
-
         </ul>
     </aura:iteration>
         <br/>
+
+    <div id="rememberMe" class="slds-align_absolute-center">
+        <lightning:button variant="brand" label="Remember" onclick="{!c.rememberTheWord}" />
+    </div>
+    <br/>
 
 </aura:component>

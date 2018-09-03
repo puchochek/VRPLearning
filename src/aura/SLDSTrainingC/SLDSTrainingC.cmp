@@ -1,0 +1,21 @@
+<aura:component description="SLDSTrainingC">
+
+    <footer role="contentinfo" class="slds-p-around_large">
+        <!-- LAYOUT GRID -->
+        <div class="slds-grid slds-grid_align-spread">
+            <p class="slds-col">Salesforce Lightning Design System Example</p>
+            <p class="slds-col">&copy; Your Name Here</p>
+        </div>
+        <!-- / LAYOUT GRID -->
+    </footer>
+    <!-- / FOOTER -->
+    <div class="myapp">
+        <ul class="slds-list_dotted slds-m-top_large">
+            <li>Account 1</li>
+            <li>Account 2</li>
+            <li>Account 3</li>
+            <li>Account 4</li>
+            <li>Account 5</li>
+        </ul>
+    </div>
+</aura:component>
